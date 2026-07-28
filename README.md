@@ -13,7 +13,8 @@ x^5+y^5\ne z^5
 $$
 
 **To Lean Code** : [Basic.lean](./Flt5DkMath/Basic.lean)
-Last checked version: Lean4 + Mathlib4 = v4.33.0-rc1
+Pinned stable version: Lean4 + Mathlib4 = v4.32.2
+Also build-checked with: Lean4 + Mathlib4 = v4.33.0-rc1
 
 ```lean
 theorem PNat.pow_add_pow_ne_pow_five
