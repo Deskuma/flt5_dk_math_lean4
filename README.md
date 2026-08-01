@@ -37,6 +37,10 @@ theorem PNat.pow_add_pow_ne_pow_five
 - [FLT5: A Proof Method Using 5-Adic Valuations, the Golden Integer Ring, and Infinite Descent](./docs/pdf/FLT5-main-en-v0-r1.pdf)
   - [日本語版](./docs/pdf/FLT5-main-ja-v0-r1.pdf)
 
+### DocGen
+
+- [General documentation](https://deskuma.github.io/flt5_dk_math_lean4/docs/)
+
 ## ⚗️This Project
 
 This is a [standalone](./Flt5DkMath/FLT5StandAlone.lean) version of the following deliverables.
