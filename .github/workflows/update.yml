@@ -5,6 +5,10 @@ on:
   #   - cron: "0 8 * * *" # Every day at 08:00 AM UTC (see https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule)
   workflow_dispatch:    # Allows the workflow to be triggered manually via the GitHub interface
 
+concurrency:
+  group: update-dependencies
+  cancel-in-progress: false
+
 jobs:
   check-for-updates: # Determines which updates to apply.
     runs-on: ubuntu-latest

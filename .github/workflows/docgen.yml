@@ -1,7 +1,7 @@
-name: Lean Action CI
+name: Build Lean documentation
 
 on:
-  pull_request:
+  push:
     branches:
       - master
     paths:
@@ -10,24 +10,34 @@ on:
       - "lakefile.toml"
       - "lean-toolchain"
       - "lake-manifest.json"
-      - ".github/workflows/lean_action_ci.yml"
+      - "references.bib"
+      - ".github/workflows/docgen.yml"
 
   workflow_dispatch:
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
+  group: docgen-master
   cancel-in-progress: true
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  build:
+  docgen:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout project
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Build and test Lean project
         uses: leanprover/lean-action@v1
+
+      - name: Build and deploy Lean API documentation
+        uses: leanprover-community/docgen-action@v1
+        with:
+          build-page: false
