@@ -1,6 +1,6 @@
 # DkMath: FLT5 for Lean4
 
-Date: 2026/07/29  1:45 JST
+Date: Create: 2026/07/29  1:45 JST / Update: 2026/08/01 19:35 JST
 Author: Deskuma (D. and Wise Wolf)
 
 ## Fermat's Last Theorem (n=5 only) for Lean4
@@ -28,7 +28,16 @@ theorem PNat.pow_add_pow_ne_pow_five
       x.1 y.1 z.1 x.property y.property z.property h_eq
 ```
 
-## This Project
+## 📖Explanatory document
+
+### Fermat's Last Theorem for Exponent Five
+
+📜PDF
+
+- [FLT5: A Proof Method Using 5-Adic Valuations, the Golden Integer Ring, and Infinite Descent](./docs/pdf/FLT5-main-en-v0-r1.pdf)
+  - [日本語版](./docs/pdf/FLT5-main-ja-v0-r1.pdf)
+
+## ⚗️This Project
 
 This is a [standalone](./Flt5DkMath/FLT5StandAlone.lean) version of the following deliverables.
 
