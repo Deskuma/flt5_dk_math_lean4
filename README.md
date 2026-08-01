@@ -41,6 +41,8 @@ theorem PNat.pow_add_pow_ne_pow_five
 
 - [Lean entry point: `Basic.lean`](./Flt5DkMath/Basic.lean)
 - [General Lean API documentation](https://deskuma.github.io/flt5_dk_math_lean4/docs/)
+  - [Basic](https://deskuma.github.io/flt5_dk_math_lean4/docs/Flt5DkMath/Basic.html)
+  - [FLT5StandAlone](https://deskuma.github.io/flt5_dk_math_lean4/docs/Flt5DkMath/FLT5StandAlone.html)
 - [Standalone Lean source](./Flt5DkMath/FLT5StandAlone.lean)
 
 ## ⚗️This Project
