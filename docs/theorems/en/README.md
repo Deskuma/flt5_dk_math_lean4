@@ -1,31 +1,16 @@
 # FLT5 Theorem Museum — English Translation
 
-> This series is translated from the Japanese canonical edition. In case of editorial discrepancy, the Japanese edition is authoritative.
+> This series is translated from the Japanese canonical edition.
 
 ## About this museum
 
-This gallery is a theorem-by-theorem guide to the Lean 4 formalization of Fermat's Last Theorem for exponent five. It reads the development from its entry point in explanatory dependency order, one declaration at a time.
+This is a declaration-by-declaration reading guide to the Lean 4 formalization of Fermat's Last Theorem for exponent five. It follows explanatory dependency order from the foundational interface toward the final contradiction.
 
-Rather than summarizing the whole proof at once, the museum separates definitions, structures, lemmas, and theorems into individual exhibits. Each article records what a declaration receives, what it establishes, and what it passes to the next stage.
+The Japanese edition is canonical. The English edition preserves the content, declaration names, formulas, and section structure. The Lean source in the repository remains the final mathematical and formal authority.
 
-The series is designed to serve as:
+## Numbering
 
-- a guided reading route through the FLT5 proof;
-- a dependency catalogue for public declarations;
-- an explanation of Lean-specific proof processing;
-- an audit notebook for redundancy and reconstruction;
-- an import-minimization notebook for Mathlib dependencies;
-- a source of small Comparator-style proof challenges.
-
-## Canonical edition and translation
-
-The Japanese edition is canonical. The English edition preserves the declaration names, formulas, article numbers, and section structure of the corresponding Japanese article.
-
-The Lean source in this repository remains the final mathematical and formal authority. Neither language edition overrides the declarations checked by Lean's kernel.
-
-## Numbering convention
-
-Each article uses a four-digit sequence number followed by the declaration name:
+Each article uses a matching four-digit dependency-order number and declaration name in both languages.
 
 ```text
 0001-DeclarationName.md
@@ -33,35 +18,12 @@ Each article uses a four-digit sequence number followed by the declaration name:
 ...
 ```
 
-The sequence follows explanatory dependency order rather than merely reproducing textual order in the standalone source. Japanese and English articles use matching numbers and file names.
-
-## Standard article structure
-
-Each article normally records:
-
-1. the Lean declaration and fully qualified name;
-2. the mathematical statement;
-3. its role in the complete proof;
-4. directly required definitions and lemmas;
-5. the proof or construction flow;
-6. Lean-specific coercions, rewrites, and tactics;
-7. redundancy or duplication;
-8. refactoring and optimization candidates;
-9. required Mathlib imports and import-minimization candidates;
-10. suitability for a Comparator challenge;
-11. the next declaration to study.
-
-Facts directly supported by the Lean source are distinguished from interpretation, inference, and unverified optimization proposals.
-
-## Sources
-
-The primary source is the Lean code checked by the kernel in this repository.
-
-The existing Japanese and English PDFs are used as supporting narrative references for the mathematical route and background. They do not replace the types and implementations present in the Lean source.
+Each article records the Lean type, mathematical statement, role in the complete proof, direct dependencies, proof flow, Lean-specific processing, redundancy, optimization candidates, Mathlib imports, Comparator challenge suitability, and the next declaration. Verified source facts are distinguished from unverified proposals.
 
 ## Catalogue
 
-- [0001 — `Fermat5Equation`](./0001-Fermat5Equation.md) — Defines the exponent-five equation as the minimal proposition-valued interface over natural numbers.
-- [0002 — `CounterexamplePack`](./0002-CounterexamplePack.md) — Packages positivity, primitivity, and the equation as the proposition-valued input to later reductions.
+- [0001 — `Fermat5Equation`](./0001-Fermat5Equation.md) — The minimal proposition-valued interface for the exponent-five equation.
+- [0002 — `CounterexamplePack`](./0002-CounterexamplePack.md) — Packages positivity, primitivity, and the equation as input data.
+- [0003 — `fifth_sub_eq_of_add_eq`](./0003-fifth_sub_eq_of_add_eq.md) — Converts the additive equation into a difference-of-fifth-powers identity over natural numbers.
 
-The next article will cover `DkMath.FLT.Five.fifth_sub_eq_of_add_eq`.
+The next article will cover `DkMath.FLT.Five.right_lt_of_fermat5Equation`.
