@@ -25,5 +25,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0001 — `Fermat5Equation`](./0001-Fermat5Equation.md) — The minimal proposition-valued interface for the exponent-five equation.
 - [0002 — `CounterexamplePack`](./0002-CounterexamplePack.md) — Packages positivity, primitivity, and the equation as input data.
 - [0003 — `fifth_sub_eq_of_add_eq`](./0003-fifth_sub_eq_of_add_eq.md) — Converts the additive equation into a difference-of-fifth-powers identity over natural numbers.
+- [0004 — `right_lt_of_fermat5Equation`](./0004-right_lt_of_fermat5Equation.md) — Derives $y<z$ from a positive left term and passes order information to gap positivity.
 
-The next article will cover `DkMath.FLT.Five.right_lt_of_fermat5Equation`.
+The next article will cover `DkMath.FLT.Five.gap_pos_of_fermat5Equation`.
