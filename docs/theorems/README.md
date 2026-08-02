@@ -57,5 +57,6 @@ The Lean source in this repository is the primary source of truth. The existing 
 | No. | Declaration | 日本語 | English |
 |---:|---|---|---|
 | 0001 | `DkMath.FLT.Five.Fermat5Equation` | [日本語正本](./ja/0001-Fermat5Equation.md) | [English](./en/0001-Fermat5Equation.md) |
+| 0002 | `DkMath.FLT.Five.CounterexamplePack` | [日本語正本](./ja/0002-CounterexamplePack.md) | [English](./en/0002-CounterexamplePack.md) |
 
-Next in dependency order: `DkMath.FLT.Five.CounterexamplePack`.
+Next in dependency order: `DkMath.FLT.Five.fifth_sub_eq_of_add_eq`.
