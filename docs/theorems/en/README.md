@@ -61,4 +61,6 @@ The existing Japanese and English PDFs are used as supporting narrative referenc
 
 ## Catalogue
 
-No numbered article has been published yet. Issue 0001 will begin with the minimal FLT5 equation interface, then proceed through the positive primitive counterexample packet, gap and GN5 stages, the 5-adic split, the golden integer order, unit classes, the zero sector, infinite descent, and the final refutation.
+- [0001 — `Fermat5Equation`](./0001-Fermat5Equation.md) — Defines the exponent-five equation as the minimal proposition-valued interface over natural numbers.
+
+The next article will cover `DkMath.FLT.Five.CounterexamplePack`.
