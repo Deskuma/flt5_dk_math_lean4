@@ -54,4 +54,8 @@ The Lean source in this repository is the primary source of truth. The existing 
 
 ## Catalogue
 
-No numbered article has been published yet. The first issue will begin with the foundational FLT5 equation interface and proceed in dependency order.
+| No. | Declaration | 日本語 | English |
+|---:|---|---|---|
+| 0001 | `DkMath.FLT.Five.Fermat5Equation` | [日本語正本](./ja/0001-Fermat5Equation.md) | [English](./en/0001-Fermat5Equation.md) |
+
+Next in dependency order: `DkMath.FLT.Five.CounterexamplePack`.
