@@ -25,5 +25,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0001 — `Fermat5Equation`](./0001-Fermat5Equation.md) — 指数5方程式の最小命題インターフェース。
 - [0002 — `CounterexamplePack`](./0002-CounterexamplePack.md) — 正値性・原始性・方程式を束ねる入力構造体。
 - [0003 — `fifth_sub_eq_of_add_eq`](./0003-fifth_sub_eq_of_add_eq.md) — 加法形を自然数上の第五冪差分形へ移す補題。
+- [0004 — `right_lt_of_fermat5Equation`](./0004-right_lt_of_fermat5Equation.md) — 正の左項から $y<z$ を導き、gap の正値化へ渡す順序橋。
 
-次号は `DkMath.FLT.Five.right_lt_of_fermat5Equation` を扱います。
+次号は `DkMath.FLT.Five.gap_pos_of_fermat5Equation` を扱います。
