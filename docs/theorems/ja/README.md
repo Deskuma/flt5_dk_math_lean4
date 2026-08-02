@@ -62,5 +62,6 @@ Lean ソースから直接確認できる事実と、解説上の解釈・推論
 ## 目録
 
 - [0001 — `Fermat5Equation`](./0001-Fermat5Equation.md) — 指数5方程式を自然数上の最小命題インターフェースとして固定する定義。
+- [0002 — `CounterexamplePack`](./0002-CounterexamplePack.md) — 正値性・原始性・方程式を束ね、後続還元の入力となる命題構造体。
 
-次号は `DkMath.FLT.Five.CounterexamplePack` を扱います。
+次号は `DkMath.FLT.Five.fifth_sub_eq_of_add_eq` を扱います。
