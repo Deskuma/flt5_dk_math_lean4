@@ -62,5 +62,6 @@ The existing Japanese and English PDFs are used as supporting narrative referenc
 ## Catalogue
 
 - [0001 — `Fermat5Equation`](./0001-Fermat5Equation.md) — Defines the exponent-five equation as the minimal proposition-valued interface over natural numbers.
+- [0002 — `CounterexamplePack`](./0002-CounterexamplePack.md) — Packages positivity, primitivity, and the equation as the proposition-valued input to later reductions.
 
-The next article will cover `DkMath.FLT.Five.CounterexamplePack`.
+The next article will cover `DkMath.FLT.Five.fifth_sub_eq_of_add_eq`.
