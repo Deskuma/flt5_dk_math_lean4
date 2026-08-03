@@ -27,5 +27,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0009 — `GN5_eq_g_pow_four_add_five_mul`](./0009-GN5_eq_g_pow_four_add_five_mul.md) — Decomposes `GN5` into $g^4$ and a multiple of $5$ for five-adic analysis.
 - [0010 — `add_pow_five_eq_add_mul_GN5`](./0010-add_pow_five_eq_add_mul_GN5.md) — Splits the fifth power into the base term $y^5$ and a `GN5` body carrying the gap as a factor.
 - [0011 — `add_pow_five_sub_eq_mul_GN5`](./0011-add_pow_five_sub_eq_mul_GN5.md) — Converts the additive form into the direct factorization API connecting the fifth-power difference with the gap and `GN5`.
+- [0012 — `pow_five_sub_pow_five_eq_gap_mul_GN5`](./0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) — Connects the abstract gap to the concrete natural-number difference $z-y$.
 
-The next article will cover `DkMath.FLT.Five.pow_five_sub_pow_five_eq_gap_mul_GN5`.
+The next article will cover `DkMath.FLT.Five.GN5_one_one`.
