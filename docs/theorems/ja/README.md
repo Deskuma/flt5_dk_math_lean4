@@ -28,5 +28,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0004 — `right_lt_of_fermat5Equation`](./0004-right_lt_of_fermat5Equation.md) — 正の左項から $y<z$ を導き、gap の正値化へ渡す順序橋。
 - [0005 — `gap_pos_of_fermat5Equation`](./0005-gap_pos_of_fermat5Equation.md) — $y<z$ を $0<z-y$ へ変換し、正の gap 座標を確立する橋。
 - [0006 — `GN5`](./0006-GN5.md) — 第五冪差から gap を取り出した次数4の斉次残余核。
+- [0007 — `GN5_eq_homogeneous_cyclotomic`](./0007-GN5_eq_homogeneous_cyclotomic.md) — `GN5` を標準的な斉次第五巡回因子と同一視する多項式恒等式。
 
-次号は `DkMath.FLT.Five.GN5_eq_homogeneous_cyclotomic` を扱います。
+次号は `DkMath.FLT.Five.GN5_eq_gap_mul_add_five_mul_y_pow_four` を扱います。
