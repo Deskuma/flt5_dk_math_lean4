@@ -27,5 +27,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0009 — `GN5_eq_g_pow_four_add_five_mul`](./0009-GN5_eq_g_pow_four_add_five_mul.md) — `GN5` を $g^4$ と $5$ の倍数部分に分ける five-adic 分解。
 - [0010 — `add_pow_five_eq_add_mul_GN5`](./0010-add_pow_five_eq_add_mul_GN5.md) — 第五冪を基準項 $y^5$ と gap を因子にもつ `GN5` body に分解する加法形。
 - [0011 — `add_pow_five_sub_eq_mul_GN5`](./0011-add_pow_five_sub_eq_mul_GN5.md) — 加法形を第五冪差と gap・`GN5` の積を結ぶ直接因数分解 API へ変換する補題。
+- [0012 — `pow_five_sub_pow_five_eq_gap_mul_GN5`](./0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) — 抽象 gap を実際の自然数差 $z-y$ へ接続する第五冪差の因数分解橋。
 
-次号は `DkMath.FLT.Five.pow_five_sub_pow_five_eq_gap_mul_GN5` を扱います。
+次号は `DkMath.FLT.Five.GN5_one_one` を扱います。
