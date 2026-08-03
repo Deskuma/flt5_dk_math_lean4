@@ -30,5 +30,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0012 — `pow_five_sub_pow_five_eq_gap_mul_GN5`](./0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) — Connects the abstract gap to the concrete natural-number difference $z-y$.
 - [0013 — `GN5_one_one`](./0013-GN5_one_one.md) — Establishes $GN5(1,1)=31$ and passes a concrete value to the finite-prime escape no-lift demonstration.
 - [0014 — `GN5_two_one`](./0014-GN5_two_one.md) — Establishes $GN5(2,1)=121$ as a second concrete smoke test.
+- [0015 — `CleanGN5Channel`](./0015-CleanGN5Channel.md) — An auditable `Prop` structure packaging a prime with local exponent one in `GN5` and exponent zero in the gap.
 
-The next article will cover `DkMath.FLT.Five.CleanGN5Channel`.
+The next article will cover `DkMath.FLT.Five.CleanGN5Channel.dvd_body`.
