@@ -31,9 +31,9 @@ $$
 
 ## Role in the complete proof
 
-The preceding `GN5_eq_gap_mul_add_five_mul_y_pow_four` is a decomposition modulo the gap $g$. This theorem is the corresponding decomposition modulo the prime $5`, and it is an entry point for reading the five-adic behavior of `GN5 g y`.
+The preceding `GN5_eq_gap_mul_add_five_mul_y_pow_four` is a decomposition modulo the gap $g$. This theorem is the corresponding decomposition modulo the prime $5$, and it is an entry point for reading the five-adic behavior of `GN5 g y`.
 
-In particular, $5\mid GN5(g,y)$ implies $5\mid g^4`, and a separate power-divisibility lemma can then be used to reach $5\mid g`. That latter step is not a conclusion of this theorem alone.
+In particular, $5\mid GN5(g,y)$ implies $5\mid g^4$, and a separate power-divisibility lemma can then be used to reach $5\mid g$. That latter step is not a conclusion of this theorem alone.
 
 ## Direct dependencies
 
