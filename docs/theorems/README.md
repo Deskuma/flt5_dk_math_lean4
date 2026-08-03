@@ -28,23 +28,11 @@ Articles are numbered with four digits in explanatory dependency order:
 ...
 ```
 
-The numbering does not merely reproduce textual order. It records the order in which the declarations are best understood as parts of the complete proof.
+The numbering records the order in which the declarations are best understood as parts of the complete proof.
 
 ## Standard article contents
 
-Each article records:
-
-1. the Lean declaration and fully qualified name;
-2. the mathematical statement;
-3. its role in the complete FLT5 proof;
-4. direct definitions and lemmas on which it depends;
-5. the proof or construction flow;
-6. Lean-specific transformations and tactics;
-7. possible redundancy or duplication;
-8. refactoring and optimization candidates;
-9. Mathlib import requirements and import-minimization candidates;
-10. suitability for a Comparator challenge;
-11. the next declaration to study.
+Each article records the Lean declaration, mathematical statement, role in the proof, direct dependencies, proof flow, Lean-specific processing, redundancy, optimization candidates, Mathlib imports, Comparator suitability, and the next declaration.
 
 Claims taken directly from the repository are distinguished from interpretation, inference, and unverified optimization proposals.
 
@@ -62,5 +50,6 @@ The Lean source in this repository is the primary source of truth. The existing 
 | 0004 | `DkMath.FLT.Five.right_lt_of_fermat5Equation` | [日本語正本](./ja/0004-right_lt_of_fermat5Equation.md) | [English](./en/0004-right_lt_of_fermat5Equation.md) |
 | 0005 | `DkMath.FLT.Five.gap_pos_of_fermat5Equation` | [日本語正本](./ja/0005-gap_pos_of_fermat5Equation.md) | [English](./en/0005-gap_pos_of_fermat5Equation.md) |
 | 0006 | `DkMath.FLT.Five.GN5` | [日本語正本](./ja/0006-GN5.md) | [English](./en/0006-GN5.md) |
+| 0007 | `DkMath.FLT.Five.GN5_eq_homogeneous_cyclotomic` | [日本語正本](./ja/0007-GN5_eq_homogeneous_cyclotomic.md) | [English](./en/0007-GN5_eq_homogeneous_cyclotomic.md) |
 
-Next in dependency order: `DkMath.FLT.Five.GN5_eq_homogeneous_cyclotomic`.
+Next in dependency order: `DkMath.FLT.Five.GN5_eq_gap_mul_add_five_mul_y_pow_four`.
