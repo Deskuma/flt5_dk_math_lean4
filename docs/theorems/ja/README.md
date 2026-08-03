@@ -25,5 +25,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0007 — `GN5_eq_homogeneous_cyclotomic`](./0007-GN5_eq_homogeneous_cyclotomic.md) — `GN5` を標準的な斉次第五巡回因子と同一視する多項式恒等式。
 - [0008 — `GN5_eq_gap_mul_add_five_mul_y_pow_four`](./0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) — `GN5` を gap の倍数部分と $5y^4$ に分ける合同解析用の恒等式。
 - [0009 — `GN5_eq_g_pow_four_add_five_mul`](./0009-GN5_eq_g_pow_four_add_five_mul.md) — `GN5` を $g^4$ と $5$ の倍数部分に分ける five-adic 分解。
+- [0010 — `add_pow_five_eq_add_mul_GN5`](./0010-add_pow_five_eq_add_mul_GN5.md) — 第五冪を基準項 $y^5$ と gap を因子にもつ `GN5` body に分解する加法形。
 
-次号は `DkMath.FLT.Five.add_pow_five_eq_add_mul_GN5` を扱います。
+次号は `DkMath.FLT.Five.add_pow_five_sub_eq_mul_GN5` を扱います。
