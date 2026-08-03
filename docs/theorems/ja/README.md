@@ -12,12 +12,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 
 各記事は依存順の4桁番号と宣言名を共有します。
 
-```text
-0001-DeclarationName.md
-0002-NextDeclaration.md
-...
-```
-
 各号には Lean の型、数学的主張、証明全体での役割、直接依存、証明の流れ、Lean 固有処理、冗長性、最適化候補、Mathlib import、Comparator challenge 化、次に読む宣言を収録します。確認事実と未検証の提案は区別して記します。
 
 ## 目録
@@ -29,5 +23,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0005 — `gap_pos_of_fermat5Equation`](./0005-gap_pos_of_fermat5Equation.md) — $y<z$ を $0<z-y$ へ変換し、正の gap 座標を確立する橋。
 - [0006 — `GN5`](./0006-GN5.md) — 第五冪差から gap を取り出した次数4の斉次残余核。
 - [0007 — `GN5_eq_homogeneous_cyclotomic`](./0007-GN5_eq_homogeneous_cyclotomic.md) — `GN5` を標準的な斉次第五巡回因子と同一視する多項式恒等式。
+- [0008 — `GN5_eq_gap_mul_add_five_mul_y_pow_four`](./0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) — `GN5` を gap の倍数部分と $5y^4$ に分ける合同解析用の恒等式。
 
-次号は `DkMath.FLT.Five.GN5_eq_gap_mul_add_five_mul_y_pow_four` を扱います。
+次号は `DkMath.FLT.Five.GN5_eq_g_pow_four_add_five_mul` を扱います。
