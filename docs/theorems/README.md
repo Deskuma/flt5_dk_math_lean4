@@ -40,5 +40,6 @@ The Lean source is primary. Existing Japanese and English explanatory PDFs provi
 | 0011 | `DkMath.FLT.Five.add_pow_five_sub_eq_mul_GN5` | [日本語正本](./ja/0011-add_pow_five_sub_eq_mul_GN5.md) | [English](./en/0011-add_pow_five_sub_eq_mul_GN5.md) |
 | 0012 | `DkMath.FLT.Five.pow_five_sub_pow_five_eq_gap_mul_GN5` | [日本語正本](./ja/0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) | [English](./en/0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) |
 | 0013 | `DkMath.FLT.Five.GN5_one_one` | [日本語正本](./ja/0013-GN5_one_one.md) | [English](./en/0013-GN5_one_one.md) |
+| 0014 | `DkMath.FLT.Five.GN5_two_one` | [日本語正本](./ja/0014-GN5_two_one.md) | [English](./en/0014-GN5_two_one.md) |
 
-Next in dependency order: `DkMath.FLT.Five.GN5_two_one`.
+Next in dependency order: `DkMath.FLT.Five.CleanGN5Channel`.
