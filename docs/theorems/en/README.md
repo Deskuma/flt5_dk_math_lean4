@@ -31,5 +31,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0013 — `GN5_one_one`](./0013-GN5_one_one.md) — Establishes $GN5(1,1)=31$ and passes a concrete value to the finite-prime escape no-lift demonstration.
 - [0014 — `GN5_two_one`](./0014-GN5_two_one.md) — Establishes $GN5(2,1)=121$ as a second concrete smoke test.
 - [0015 — `CleanGN5Channel`](./0015-CleanGN5Channel.md) — An auditable `Prop` structure packaging a prime with local exponent one in `GN5` and exponent zero in the gap.
+- [0016 — `CleanGN5Channel.dvd_body`](./0016-CleanGN5Channel.dvd_body.md) — The first consumer API lifting the local divisor of `GN5` to the full body $g\,GN5(g,y)$.
 
-The next article will cover `DkMath.FLT.Five.CleanGN5Channel.dvd_body`.
+The next article will cover `DkMath.FLT.Five.CleanGN5Channel.not_sq_dvd_body`.
