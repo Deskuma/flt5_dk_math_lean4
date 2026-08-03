@@ -37,5 +37,6 @@ The Lean source is primary. Existing Japanese and English explanatory PDFs provi
 | 0008 | `DkMath.FLT.Five.GN5_eq_gap_mul_add_five_mul_y_pow_four` | [日本語正本](./ja/0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) | [English](./en/0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) |
 | 0009 | `DkMath.FLT.Five.GN5_eq_g_pow_four_add_five_mul` | [日本語正本](./ja/0009-GN5_eq_g_pow_four_add_five_mul.md) | [English](./en/0009-GN5_eq_g_pow_four_add_five_mul.md) |
 | 0010 | `DkMath.FLT.Five.add_pow_five_eq_add_mul_GN5` | [日本語正本](./ja/0010-add_pow_five_eq_add_mul_GN5.md) | [English](./en/0010-add_pow_five_eq_add_mul_GN5.md) |
+| 0011 | `DkMath.FLT.Five.add_pow_five_sub_eq_mul_GN5` | [日本語正本](./ja/0011-add_pow_five_sub_eq_mul_GN5.md) | [English](./en/0011-add_pow_five_sub_eq_mul_GN5.md) |
 
-Next in dependency order: `DkMath.FLT.Five.add_pow_five_sub_eq_mul_GN5`.
+Next in dependency order: `DkMath.FLT.Five.pow_five_sub_pow_five_eq_gap_mul_GN5`.
