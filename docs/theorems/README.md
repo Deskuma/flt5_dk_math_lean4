@@ -61,5 +61,6 @@ The Lean source in this repository is the primary source of truth. The existing 
 | 0003 | `DkMath.FLT.Five.fifth_sub_eq_of_add_eq` | [日本語正本](./ja/0003-fifth_sub_eq_of_add_eq.md) | [English](./en/0003-fifth_sub_eq_of_add_eq.md) |
 | 0004 | `DkMath.FLT.Five.right_lt_of_fermat5Equation` | [日本語正本](./ja/0004-right_lt_of_fermat5Equation.md) | [English](./en/0004-right_lt_of_fermat5Equation.md) |
 | 0005 | `DkMath.FLT.Five.gap_pos_of_fermat5Equation` | [日本語正本](./ja/0005-gap_pos_of_fermat5Equation.md) | [English](./en/0005-gap_pos_of_fermat5Equation.md) |
+| 0006 | `DkMath.FLT.Five.GN5` | [日本語正本](./ja/0006-GN5.md) | [English](./en/0006-GN5.md) |
 
-Next in dependency order: `DkMath.FLT.Five.GN5`.
+Next in dependency order: `DkMath.FLT.Five.GN5_eq_homogeneous_cyclotomic`.
