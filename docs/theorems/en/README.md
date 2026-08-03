@@ -4,19 +4,13 @@
 
 ## About this museum
 
-This is a declaration-by-declaration reading guide to the Lean 4 formalization of Fermat's Last Theorem for exponent five. It follows explanatory dependency order from the foundational interface toward the final contradiction.
+This is a declaration-by-declaration reading guide to the Lean 4 formalization of Fermat's Last Theorem for exponent five. It follows explanatory dependency order from the foundational interface toward the final theorem.
 
 The Japanese edition is canonical. The English edition preserves the content, declaration names, formulas, and section structure. The Lean source in the repository remains the final mathematical and formal authority.
 
 ## Numbering
 
 Each article uses a matching four-digit dependency-order number and declaration name in both languages.
-
-```text
-0001-DeclarationName.md
-0002-NextDeclaration.md
-...
-```
 
 Each article records the Lean type, mathematical statement, role in the complete proof, direct dependencies, proof flow, Lean-specific processing, redundancy, optimization candidates, Mathlib imports, Comparator challenge suitability, and the next declaration. Verified source facts are distinguished from unverified proposals.
 
@@ -29,5 +23,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0005 — `gap_pos_of_fermat5Equation`](./0005-gap_pos_of_fermat5Equation.md) — Converts $y<z$ into $0<z-y$ and establishes a positive gap coordinate.
 - [0006 — `GN5`](./0006-GN5.md) — The homogeneous degree-four residual kernel obtained after extracting the gap from a fifth-power difference.
 - [0007 — `GN5_eq_homogeneous_cyclotomic`](./0007-GN5_eq_homogeneous_cyclotomic.md) — Identifies `GN5` with the standard homogeneous fifth cyclotomic factor.
+- [0008 — `GN5_eq_gap_mul_add_five_mul_y_pow_four`](./0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) — Decomposes `GN5` into a multiple of the gap and the remainder $5y^4$ for congruence analysis.
 
-The next article will cover `DkMath.FLT.Five.GN5_eq_gap_mul_add_five_mul_y_pow_four`.
+The next article will cover `DkMath.FLT.Five.GN5_eq_g_pow_four_add_five_mul`.
