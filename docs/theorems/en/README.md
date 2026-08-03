@@ -25,5 +25,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0007 — `GN5_eq_homogeneous_cyclotomic`](./0007-GN5_eq_homogeneous_cyclotomic.md) — Identifies `GN5` with the standard homogeneous fifth cyclotomic factor.
 - [0008 — `GN5_eq_gap_mul_add_five_mul_y_pow_four`](./0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) — Decomposes `GN5` into a multiple of the gap and the remainder $5y^4$ for congruence analysis.
 - [0009 — `GN5_eq_g_pow_four_add_five_mul`](./0009-GN5_eq_g_pow_four_add_five_mul.md) — Decomposes `GN5` into $g^4$ and a multiple of $5$ for five-adic analysis.
+- [0010 — `add_pow_five_eq_add_mul_GN5`](./0010-add_pow_five_eq_add_mul_GN5.md) — Splits the fifth power into the base term $y^5$ and a `GN5` body carrying the gap as a factor.
 
-The next article will cover `DkMath.FLT.Five.add_pow_five_eq_add_mul_GN5`.
+The next article will cover `DkMath.FLT.Five.add_pow_five_sub_eq_mul_GN5`.
