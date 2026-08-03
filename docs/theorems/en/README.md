@@ -24,5 +24,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0006 — `GN5`](./0006-GN5.md) — The homogeneous degree-four residual kernel obtained after extracting the gap from a fifth-power difference.
 - [0007 — `GN5_eq_homogeneous_cyclotomic`](./0007-GN5_eq_homogeneous_cyclotomic.md) — Identifies `GN5` with the standard homogeneous fifth cyclotomic factor.
 - [0008 — `GN5_eq_gap_mul_add_five_mul_y_pow_four`](./0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) — Decomposes `GN5` into a multiple of the gap and the remainder $5y^4$ for congruence analysis.
+- [0009 — `GN5_eq_g_pow_four_add_five_mul`](./0009-GN5_eq_g_pow_four_add_five_mul.md) — Decomposes `GN5` into $g^4$ and a multiple of $5$ for five-adic analysis.
 
-The next article will cover `DkMath.FLT.Five.GN5_eq_g_pow_four_add_five_mul`.
+The next article will cover `DkMath.FLT.Five.add_pow_five_eq_add_mul_GN5`.
