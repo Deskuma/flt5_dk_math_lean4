@@ -30,5 +30,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0012 — `pow_five_sub_pow_five_eq_gap_mul_GN5`](./0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) — 抽象 gap を実際の自然数差 $z-y$ へ接続する第五冪差の因数分解橋。
 - [0013 — `GN5_one_one`](./0013-GN5_one_one.md) — $GN5(1,1)=31$ を確定し、有限素数 escape の no-lift 実演へ渡す具体値評価。
 - [0014 — `GN5_two_one`](./0014-GN5_two_one.md) — $GN5(2,1)=121$ を確定する第二の具体値 smoke test。
+- [0015 — `CleanGN5Channel`](./0015-CleanGN5Channel.md) — gap 外で `GN5` に局所指数1をもつ素数を束ねる監査可能な `Prop` 構造体。
 
-次号は `DkMath.FLT.Five.CleanGN5Channel` を扱います。
+次号は `DkMath.FLT.Five.CleanGN5Channel.dvd_body` を扱います。
