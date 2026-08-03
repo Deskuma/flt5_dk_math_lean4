@@ -183,3 +183,7 @@ theorem fifth_sub_eq_of_add_eq_challenge
 宣言の型、二行の証明、`Fermat5Equation` への直接依存、`unfold` と `omega` の使用は Lean ソースから直接確認できます。
 
 `omega` が冪項を原子的な自然数項として扱うという説明は tactic の適用されている算術形に基づく解説です。標準補題による置換案、最小 import、リポジトリ全体での重複可能性は未検証の最適化提案であり、確定事項ではありません。
+
+---
+
+[prev](./0002-CounterexamplePack.md) < 0003 > [next](./0004-right_lt_of_fermat5Equation.md)

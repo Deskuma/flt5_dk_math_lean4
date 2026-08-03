@@ -146,3 +146,7 @@ standalone は `import Mathlib` を使用しており、この環境での成立
 定理の型、証明項、直接利用する補題、直後に `gap_pos_of_fermat5Equation` が置かれていることは Lean ソースに基づく確認事実です。
 
 import 最小化、代替証明、左右対称補題への抽出、Comparator 課題としての評価は本稿の分析・提案です。今回は Lean ビルドを実行していません。
+
+---
+
+[prev](./0003-fifth_sub_eq_of_add_eq.md) < 0004 > [next](./0005-gap_pos_of_fermat5Equation.md)

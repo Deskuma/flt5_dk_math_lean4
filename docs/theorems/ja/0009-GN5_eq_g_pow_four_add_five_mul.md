@@ -87,3 +87,7 @@ $$
 ## 根拠と推論の区別
 
 定理本体、証明、宣言順、$GN5(g,y)\equiv g^4\pmod5$ という読みは Lean ソースに基づきます。補助 API、最小 import、Comparator 設計は分析・提案であり、追加の Lean 検証は行っていません。
+
+---
+
+[prev](./0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) < 0009 > [next](./0010-add_pow_five_eq_add_mul_GN5.md)

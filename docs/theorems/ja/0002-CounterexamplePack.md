@@ -225,3 +225,7 @@ z^5-y^5=x^5
 $$
 
 へ移すことだからです。これが自然数の gap と `GN5` 因数分解への入口になります。
+
+---
+
+[prev](./0001-Fermat5Equation.md) < 0002 > [next](./0003-fifth_sub_eq_of_add_eq.md)

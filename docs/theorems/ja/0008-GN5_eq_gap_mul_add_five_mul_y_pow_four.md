@@ -135,3 +135,7 @@ $$
 定理の型、証明、`GN5` の定義、次の five-adic 分解、および両分解が例外素数 $5$ を説明するというモジュール記述は Lean ソースに直接基づきます。
 
 派生する合同式、共通素因子への利用説明、追加 API、最小 import、Comparator 評価は数学的分析または未検証の提案です。今回は Lean ビルドを実行していません。
+
+---
+
+[prev](./0007-GN5_eq_homogeneous_cyclotomic.md) < 0008 > [next](./0009-GN5_eq_g_pow_four_add_five_mul.md)

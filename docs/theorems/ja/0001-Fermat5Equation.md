@@ -208,3 +208,7 @@ DkMath.FLT.Five.CounterexamplePack
 ```
 
 理由は、`Fermat5Equation` だけでは含まれない正値性と原始性を束ね、後続の局所因数分解が受け取る「正の原始反例候補」を初めて形成するからです。
+
+---
+
+[prev](./README.md) < 0001 > [next](./0002-CounterexamplePack.md)
