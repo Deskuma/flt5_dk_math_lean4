@@ -35,5 +35,6 @@ The Lean source is primary. Existing Japanese and English explanatory PDFs provi
 | 0006 | `DkMath.FLT.Five.GN5` | [日本語正本](./ja/0006-GN5.md) | [English](./en/0006-GN5.md) |
 | 0007 | `DkMath.FLT.Five.GN5_eq_homogeneous_cyclotomic` | [日本語正本](./ja/0007-GN5_eq_homogeneous_cyclotomic.md) | [English](./en/0007-GN5_eq_homogeneous_cyclotomic.md) |
 | 0008 | `DkMath.FLT.Five.GN5_eq_gap_mul_add_five_mul_y_pow_four` | [日本語正本](./ja/0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) | [English](./en/0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) |
+| 0009 | `DkMath.FLT.Five.GN5_eq_g_pow_four_add_five_mul` | [日本語正本](./ja/0009-GN5_eq_g_pow_four_add_five_mul.md) | [English](./en/0009-GN5_eq_g_pow_four_add_five_mul.md) |
 
-Next in dependency order: `DkMath.FLT.Five.GN5_eq_g_pow_four_add_five_mul`.
+Next in dependency order: `DkMath.FLT.Five.add_pow_five_eq_add_mul_GN5`.
