@@ -51,5 +51,6 @@ The Lean source is primary. Existing Japanese and English explanatory PDFs provi
 | 0022 | `DkMath.FLT.Five.coprime_y_z_of_counterexamplePack` | [日本語正本](./ja/0022-coprime_y_z_of_counterexamplePack.md) | [English](./en/0022-coprime_y_z_of_counterexamplePack.md) |
 | 0023 | `DkMath.FLT.Five.coprime_gap_y_of_counterexamplePack` | [日本語正本](./ja/0023-coprime_gap_y_of_counterexamplePack.md) | [English](./en/0023-coprime_gap_y_of_counterexamplePack.md) |
 | 0024 | `DkMath.FLT.Five.dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5` | [日本語正本](./ja/0024-dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5.md) | [English](./en/0024-dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5.md) |
+| 0025 | `DkMath.FLT.Five.coprime_gap_GN5_of_coprime_of_five_not_dvd` | [日本語正本](./ja/0025-coprime_gap_GN5_of_coprime_of_five_not_dvd.md) | [English](./en/0025-coprime_gap_GN5_of_coprime_of_five_not_dvd.md) |
 
-Next in dependency order: `DkMath.FLT.Five.coprime_gap_GN5_of_coprime_of_five_not_dvd`.
+Next in dependency order: `DkMath.FLT.Five.branchB_coprime_gap_GN5`.
