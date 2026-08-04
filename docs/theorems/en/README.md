@@ -40,5 +40,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0022 — `coprime_y_z_of_counterexamplePack`](./0022-coprime_y_z_of_counterexamplePack.md) — Uses primitivity and the fifth-power equation to derive $\gcd(y,z)=1$ in the first prime-divisor contradiction of the Reduction layer.
 - [0023 — `coprime_gap_y_of_counterexamplePack`](./0023-coprime_gap_y_of_counterexamplePack.md) — Transfers $\gcd(y,z)=1$ across natural-number subtraction and establishes $\gcd(z-y,y)=1$ in local gap coordinates.
 - [0024 — `dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5`](./0024-dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5.md) — Routes any common divisor of the gap and `GN5` through the gap decomposition into the exceptional term $5y^4$.
+- [0025 — `coprime_gap_GN5_of_coprime_of_five_not_dvd`](./0025-coprime_gap_GN5_of_coprime_of_five_not_dvd.md) — Eliminates both possible sources of a common prime divisor under $\gcd(g,y)=1$ and $5\nmid g$, giving the Branch B factor-separation theorem.
 
-The next article will cover `DkMath.FLT.Five.coprime_gap_GN5_of_coprime_of_five_not_dvd`.
+The next article will cover `DkMath.FLT.Five.branchB_coprime_gap_GN5`.
