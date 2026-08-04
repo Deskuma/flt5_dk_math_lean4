@@ -34,5 +34,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0016 — `CleanGN5Channel.dvd_body`](./0016-CleanGN5Channel.dvd_body.md) — The first consumer API lifting the local divisor of `GN5` to the full body $g\,GN5(g,y)$.
 - [0017 — `CleanGN5Channel.not_sq_dvd_body`](./0017-CleanGN5Channel.not_sq_dvd_body.md) — The local exponent bound showing that the square of a clean prime coprime to the gap cannot enter the full body.
 - [0018 — `not_fifth_power_GN5_of_clean`](./0018-not_fifth_power_GN5_of_clean.md) — Converts a clean prime of local exponent one in `GN5` into the first completed proof that `GN5(g,y)` is not a perfect fifth power.
+- [0019 — `not_fifth_power_body_of_clean`](./0019-not_fifth_power_body_of_clean.md) — Lifts the clean prime's local exponent-one obstruction to exclusion of a perfect fifth power for the full body $g\,GN5(g,y)$.
 
-The next article will cover `DkMath.FLT.Five.not_fifth_power_body_of_clean`.
+The next article will cover `DkMath.FLT.Five.cleanGN5Channel_one_one_31`.
