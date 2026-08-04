@@ -39,5 +39,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0021 — `GN5_one_one_not_fifth_power`](./0021-GN5_one_one_not_fifth_power.md) — Connects the concrete provider to the general consumer in one line and excludes a perfect fifth power for $GN5(1,1)$.
 - [0022 — `coprime_y_z_of_counterexamplePack`](./0022-coprime_y_z_of_counterexamplePack.md) — Uses primitivity and the fifth-power equation to derive $\gcd(y,z)=1$ in the first prime-divisor contradiction of the Reduction layer.
 - [0023 — `coprime_gap_y_of_counterexamplePack`](./0023-coprime_gap_y_of_counterexamplePack.md) — Transfers $\gcd(y,z)=1$ across natural-number subtraction and establishes $\gcd(z-y,y)=1$ in local gap coordinates.
+- [0024 — `dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5`](./0024-dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5.md) — Routes any common divisor of the gap and `GN5` through the gap decomposition into the exceptional term $5y^4$.
 
-The next article will cover `DkMath.FLT.Five.dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5`.
+The next article will cover `DkMath.FLT.Five.coprime_gap_GN5_of_coprime_of_five_not_dvd`.
