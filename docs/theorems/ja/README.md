@@ -32,5 +32,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0014 — `GN5_two_one`](./0014-GN5_two_one.md) — $GN5(2,1)=121$ を確定する第二の具体値 smoke test。
 - [0015 — `CleanGN5Channel`](./0015-CleanGN5Channel.md) — gap 外で `GN5` に局所指数1をもつ素数を束ねる監査可能な `Prop` 構造体。
 - [0016 — `CleanGN5Channel.dvd_body`](./0016-CleanGN5Channel.dvd_body.md) — `GN5` の局所素因子を full body $g\,GN5(g,y)$ へ持ち上げる最初の消費 API。
+- [0017 — `CleanGN5Channel.not_sq_dvd_body`](./0017-CleanGN5Channel.not_sq_dvd_body.md) — gap と互いに素な clean prime の平方が full body に混入しないことを示す局所指数上限。
 
-次号は `DkMath.FLT.Five.CleanGN5Channel.not_sq_dvd_body` を扱います。
+次号は `DkMath.FLT.Five.not_fifth_power_GN5_of_clean` を扱います。
