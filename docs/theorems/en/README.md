@@ -36,5 +36,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0018 — `not_fifth_power_GN5_of_clean`](./0018-not_fifth_power_GN5_of_clean.md) — Converts a clean prime of local exponent one in `GN5` into the first completed proof that `GN5(g,y)` is not a perfect fifth power.
 - [0019 — `not_fifth_power_body_of_clean`](./0019-not_fifth_power_body_of_clean.md) — Lifts the clean prime's local exponent-one obstruction to exclusion of a perfect fifth power for the full body $g\,GN5(g,y)$.
 - [0020 — `cleanGN5Channel_one_one_31`](./0020-cleanGN5Channel_one_one_31.md) — Constructs a concrete clean-channel certificate for the prime $31$ using $GN5(1,1)=31$.
+- [0021 — `GN5_one_one_not_fifth_power`](./0021-GN5_one_one_not_fifth_power.md) — Connects the concrete provider to the general consumer in one line and excludes a perfect fifth power for $GN5(1,1)$.
 
-The next article will cover `DkMath.FLT.Five.GN5_one_one_not_fifth_power`.
+The next article will cover `DkMath.FLT.Five.coprime_y_z_of_counterexamplePack`.
