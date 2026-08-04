@@ -35,5 +35,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0017 — `CleanGN5Channel.not_sq_dvd_body`](./0017-CleanGN5Channel.not_sq_dvd_body.md) — gap と互いに素な clean prime の平方が full body に混入しないことを示す局所指数上限。
 - [0018 — `not_fifth_power_GN5_of_clean`](./0018-not_fifth_power_GN5_of_clean.md) — `GN5` に局所指数1をもつ clean prime から、`GN5(g,y)` が完全第五冪でないことを導く最初の完成形。
 - [0019 — `not_fifth_power_body_of_clean`](./0019-not_fifth_power_body_of_clean.md) — clean prime の局所指数1を full body $g\,GN5(g,y)$ の完全第五冪排除へ持ち上げる主要消費定理。
+- [0020 — `cleanGN5Channel_one_one_31`](./0020-cleanGN5Channel_one_one_31.md) — $GN5(1,1)=31$ を使い、素数 $31$ の具体的な clean-channel 証明書を構成する provider。
 
-次号は `DkMath.FLT.Five.cleanGN5Channel_one_one_31` を扱います。
+次号は `DkMath.FLT.Five.GN5_one_one_not_fifth_power` を扱います。
