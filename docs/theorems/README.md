@@ -47,5 +47,6 @@ The Lean source is primary. Existing Japanese and English explanatory PDFs provi
 | 0018 | `DkMath.FLT.Five.not_fifth_power_GN5_of_clean` | [日本語正本](./ja/0018-not_fifth_power_GN5_of_clean.md) | [English](./en/0018-not_fifth_power_GN5_of_clean.md) |
 | 0019 | `DkMath.FLT.Five.not_fifth_power_body_of_clean` | [日本語正本](./ja/0019-not_fifth_power_body_of_clean.md) | [English](./en/0019-not_fifth_power_body_of_clean.md) |
 | 0020 | `DkMath.FLT.Five.cleanGN5Channel_one_one_31` | [日本語正本](./ja/0020-cleanGN5Channel_one_one_31.md) | [English](./en/0020-cleanGN5Channel_one_one_31.md) |
+| 0021 | `DkMath.FLT.Five.GN5_one_one_not_fifth_power` | [日本語正本](./ja/0021-GN5_one_one_not_fifth_power.md) | [English](./en/0021-GN5_one_one_not_fifth_power.md) |
 
-Next in dependency order: `DkMath.FLT.Five.GN5_one_one_not_fifth_power`.
+Next in dependency order: `DkMath.FLT.Five.coprime_y_z_of_counterexamplePack`.
