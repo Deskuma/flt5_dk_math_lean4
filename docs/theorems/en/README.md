@@ -37,5 +37,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0019 — `not_fifth_power_body_of_clean`](./0019-not_fifth_power_body_of_clean.md) — Lifts the clean prime's local exponent-one obstruction to exclusion of a perfect fifth power for the full body $g\,GN5(g,y)$.
 - [0020 — `cleanGN5Channel_one_one_31`](./0020-cleanGN5Channel_one_one_31.md) — Constructs a concrete clean-channel certificate for the prime $31$ using $GN5(1,1)=31$.
 - [0021 — `GN5_one_one_not_fifth_power`](./0021-GN5_one_one_not_fifth_power.md) — Connects the concrete provider to the general consumer in one line and excludes a perfect fifth power for $GN5(1,1)$.
+- [0022 — `coprime_y_z_of_counterexamplePack`](./0022-coprime_y_z_of_counterexamplePack.md) — Uses primitivity and the fifth-power equation to derive $\gcd(y,z)=1$ in the first prime-divisor contradiction of the Reduction layer.
 
-The next article will cover `DkMath.FLT.Five.coprime_y_z_of_counterexamplePack`.
+The next article will cover `DkMath.FLT.Five.coprime_gap_y_of_counterexamplePack`.
