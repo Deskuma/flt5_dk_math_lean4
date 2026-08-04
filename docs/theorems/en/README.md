@@ -42,5 +42,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0024 — `dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5`](./0024-dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5.md) — Routes any common divisor of the gap and `GN5` through the gap decomposition into the exceptional term $5y^4$.
 - [0025 — `coprime_gap_GN5_of_coprime_of_five_not_dvd`](./0025-coprime_gap_GN5_of_coprime_of_five_not_dvd.md) — Eliminates both possible sources of a common prime divisor under $\gcd(g,y)=1$ and $5\nmid g$, giving the Branch B factor-separation theorem.
 - [0026 — `branchB_coprime_gap_GN5`](./0026-branchB_coprime_gap_GN5.md) — Connects `CounterexamplePack` and the Branch B condition to the general separation theorem, establishing $\gcd(z-y,GN5(z-y,y))=1$.
+- [0027 — `fifth_power_factor_split`](./0027-fifth_power_factor_split.md) — Splits a coprime product that is a fifth power into two factors that are individually fifth powers.
 
-The next article will cover `DkMath.FLT.Five.fifth_power_factor_split`.
+The next article will cover `DkMath.FLT.Five.branchB_fifth_power_factor_split`.
