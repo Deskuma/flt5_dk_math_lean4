@@ -39,5 +39,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0021 — `GN5_one_one_not_fifth_power`](./0021-GN5_one_one_not_fifth_power.md) — 具体 provider と一般 consumer を一行で接続し、$GN5(1,1)$ の完全第五冪性を排除する完成デモ。
 - [0022 — `coprime_y_z_of_counterexamplePack`](./0022-coprime_y_z_of_counterexamplePack.md) — 原始性と第五冪方程式から $\gcd(y,z)=1$ を導く Reduction 層の最初の素因子反証。
 - [0023 — `coprime_gap_y_of_counterexamplePack`](./0023-coprime_gap_y_of_counterexamplePack.md) — $\gcd(y,z)=1$ を自然数差へ転送し、局所座標で $\gcd(z-y,y)=1$ を確立する互いに素性橋。
+- [0024 — `dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5`](./0024-dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5.md) — gap と `GN5` の共通因子を合同分解から例外項 $5y^4$ へ送り込む局所ルーティング補題。
 
-次号は `DkMath.FLT.Five.dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5` を扱います。
+次号は `DkMath.FLT.Five.coprime_gap_GN5_of_coprime_of_five_not_dvd` を扱います。
