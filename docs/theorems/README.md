@@ -54,5 +54,6 @@ The Lean source is primary. Existing Japanese and English explanatory PDFs provi
 | 0025 | `DkMath.FLT.Five.coprime_gap_GN5_of_coprime_of_five_not_dvd` | [日本語正本](./ja/0025-coprime_gap_GN5_of_coprime_of_five_not_dvd.md) | [English](./en/0025-coprime_gap_GN5_of_coprime_of_five_not_dvd.md) |
 | 0026 | `DkMath.FLT.Five.branchB_coprime_gap_GN5` | [日本語正本](./ja/0026-branchB_coprime_gap_GN5.md) | [English](./en/0026-branchB_coprime_gap_GN5.md) |
 | 0027 | `DkMath.FLT.Five.fifth_power_factor_split` | [日本語正本](./ja/0027-fifth_power_factor_split.md) | [English](./en/0027-fifth_power_factor_split.md) |
+| 0028 | `DkMath.FLT.Five.branchB_fifth_power_factor_split` | [日本語正本](./ja/0028-branchB_fifth_power_factor_split.md) | [English](./en/0028-branchB_fifth_power_factor_split.md) |
 
-Next in dependency order: `DkMath.FLT.Five.branchB_fifth_power_factor_split`.
+Next in dependency order: `DkMath.FLT.Five.branchB_false_of_GN5_not_fifth_power`.
