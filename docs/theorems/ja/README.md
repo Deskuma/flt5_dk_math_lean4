@@ -42,5 +42,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0024 — `dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5`](./0024-dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5.md) — gap と `GN5` の共通因子を合同分解から例外項 $5y^4$ へ送り込む局所ルーティング補題。
 - [0025 — `coprime_gap_GN5_of_coprime_of_five_not_dvd`](./0025-coprime_gap_GN5_of_coprime_of_five_not_dvd.md) — $\gcd(g,y)=1$ と $5\nmid g$ から、gap と `GN5` の共通素因子を二分岐で排除する Branch B 因子分離定理。
 - [0026 — `branchB_coprime_gap_GN5`](./0026-branchB_coprime_gap_GN5.md) — `CounterexamplePack` と Branch B 条件を一般因子分離定理へ接続し、$\gcd(z-y,GN5(z-y,y))=1$ を確立する境界 API。
+- [0027 — `fifth_power_factor_split`](./0027-fifth_power_factor_split.md) — 互いに素な二因子の積が第五冪なら、各因子もそれぞれ第五冪であることを導く一般冪分離エンジン。
 
-次号は `DkMath.FLT.Five.fifth_power_factor_split` を扱います。
+次号は `DkMath.FLT.Five.branchB_fifth_power_factor_split` を扱います。
