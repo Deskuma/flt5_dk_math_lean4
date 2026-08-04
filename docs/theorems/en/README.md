@@ -32,5 +32,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0014 — `GN5_two_one`](./0014-GN5_two_one.md) — Establishes $GN5(2,1)=121$ as a second concrete smoke test.
 - [0015 — `CleanGN5Channel`](./0015-CleanGN5Channel.md) — An auditable `Prop` structure packaging a prime with local exponent one in `GN5` and exponent zero in the gap.
 - [0016 — `CleanGN5Channel.dvd_body`](./0016-CleanGN5Channel.dvd_body.md) — The first consumer API lifting the local divisor of `GN5` to the full body $g\,GN5(g,y)$.
+- [0017 — `CleanGN5Channel.not_sq_dvd_body`](./0017-CleanGN5Channel.not_sq_dvd_body.md) — The local exponent bound showing that the square of a clean prime coprime to the gap cannot enter the full body.
 
-The next article will cover `DkMath.FLT.Five.CleanGN5Channel.not_sq_dvd_body`.
+The next article will cover `DkMath.FLT.Five.not_fifth_power_GN5_of_clean`.
