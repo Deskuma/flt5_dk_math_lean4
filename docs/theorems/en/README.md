@@ -46,5 +46,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0036 — `body5_eq_add_pow_sub`](./0036-body5_eq_add_pow_sub.md) — Connects `Body5` to the general fifth-power difference `(g+y)^5-y^5`.
 - [0037 — `body5_eq_fifth_power_of_fermat`](./0037-body5_eq_fifth_power_of_fermat.md) — Connects the gap-coordinate `Body5` to the perfect fifth power `x^5` forced by the Fermat equation.
 - [0038 — `counterexample_false_of_clean_GN5Channel_by_dvd`](./0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) — Contradicts the perfect-fifth-power body forced by the Fermat equation with the clean channel's non-fifth-power obstruction.
+- [0039 — `BranchBCleanGN5ChannelProvider`](./0039-BranchBCleanGN5ChannelProvider.md) — Conditional provider interface supplying an existential clean channel to every Branch B counterexample candidate.
 
-The next article will cover `DkMath.FLT.Five.BranchBCleanGN5ChannelProvider`.
+The next article will cover `DkMath.FLT.Five.BranchBNoLiftEscape`.
