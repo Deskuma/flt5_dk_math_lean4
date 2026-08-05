@@ -57,5 +57,6 @@ The Lean source is primary. Existing Japanese and English explanatory PDFs provi
 | 0028 | `DkMath.FLT.Five.branchB_fifth_power_factor_split` | [日本語正本](./ja/0028-branchB_fifth_power_factor_split.md) | [English](./en/0028-branchB_fifth_power_factor_split.md) |
 | 0029 | `DkMath.FLT.Five.branchB_false_of_GN5_not_fifth_power` | [日本語正本](./ja/0029-branchB_false_of_GN5_not_fifth_power.md) | [English](./en/0029-branchB_false_of_GN5_not_fifth_power.md) |
 | 0030 | `DkMath.FLT.Five.coprime_GN5_y_of_coprime` | [日本語正本](./ja/0030-coprime_GN5_y_of_coprime.md) | [English](./en/0030-coprime_GN5_y_of_coprime.md) |
+| 0031 | `DkMath.FLT.Five.BranchBFifthPowerNormalForm` | [日本語正本](./ja/0031-BranchBFifthPowerNormalForm.md) | [English](./en/0031-BranchBFifthPowerNormalForm.md) |
 
-Next in dependency order: `DkMath.FLT.Five.BranchBFifthPowerNormalForm`.
+Next in dependency order: `DkMath.FLT.Five.exists_branchB_fifthPowerNormalForm`.
