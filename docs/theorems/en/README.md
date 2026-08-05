@@ -47,5 +47,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0029 — `branchB_false_of_GN5_not_fifth_power`](./0029-branchB_false_of_GN5_not_fifth_power.md) — Collides the perfect-fifth-power conclusion forced for `GN5` in Branch B with an external non-fifth-power proof, returning `False` as the final consumer interface.
 - [0030 — `coprime_GN5_y_of_coprime`](./0030-coprime_GN5_y_of_coprime.md) — Transfers $\gcd(g,y)=1$ to $\gcd(GN5(g,y),y)=1$ through the congruence modulo $y$ at the entrance of the NormalForm layer.
 - [0031 — `BranchBFifthPowerNormalForm`](./0031-BranchBFifthPowerNormalForm.md) — Packages the Branch-B fifth-power split, coordinate reconstruction, positivity, coprimality, and exceptional-prime exclusion as the NormalForm receiver interface.
+- [0032 — `exists_branchB_fifthPowerNormalForm`](./0032-exists_branchB_fifthPowerNormalForm.md) — Extracts the two fifth roots from Branch-B factor separation and constructs the complete packet with coordinate recovery, positivity, three coprimality facts, and $5\nmid a$.
 
-The next article will cover `DkMath.FLT.Five.exists_branchB_fifthPowerNormalForm`.
+The next article will cover `DkMath.FLT.Five.BranchBFifthPowerCore`.
