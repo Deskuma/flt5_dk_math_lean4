@@ -43,5 +43,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0033 — `BranchBFifthPowerCore`](./0033-BranchBFifthPowerCore.md)
 - [0034 — `branchB_false_of_fifthPowerCore`](./0034-branchB_false_of_fifthPowerCore.md) — 完全標準形から core に必要な五項だけを射影し、Branch B を反証する adapter。
 - [0035 — `Body5`](./0035-Body5.md) — gap と `GN5` の積を第五冪差全体の body として命名する定義。
+- [0036 — `body5_eq_add_pow_sub`](./0036-body5_eq_add_pow_sub.md) — `Body5` を一般の第五冪差 `(g+y)^5-y^5` へ接続する bridge。
 
-次号は `DkMath.FLT.Five.body5_eq_add_pow_sub` を扱います。
+次号は `DkMath.FLT.Five.body5_eq_fifth_power_of_fermat` を扱います。
