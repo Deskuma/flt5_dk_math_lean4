@@ -44,5 +44,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0026 — `branchB_coprime_gap_GN5`](./0026-branchB_coprime_gap_GN5.md) — Connects `CounterexamplePack` and the Branch B condition to the general separation theorem, establishing $\gcd(z-y,GN5(z-y,y))=1$.
 - [0027 — `fifth_power_factor_split`](./0027-fifth_power_factor_split.md) — Splits a coprime product that is a fifth power into two factors that are individually fifth powers.
 - [0028 — `branchB_fifth_power_factor_split`](./0028-branchB_fifth_power_factor_split.md) — Splits the coprime Branch B fifth-power body and converts the gap and `GN5` into separate perfect fifth powers, yielding the exact elementary normal form.
+- [0029 — `branchB_false_of_GN5_not_fifth_power`](./0029-branchB_false_of_GN5_not_fifth_power.md) — Collides the perfect-fifth-power conclusion forced for `GN5` in Branch B with an external non-fifth-power proof, returning `False` as the final consumer interface.
 
-The next article will cover `DkMath.FLT.Five.branchB_false_of_GN5_not_fifth_power`.
+The next article will cover `DkMath.FLT.Five.coprime_GN5_y_of_coprime`.
