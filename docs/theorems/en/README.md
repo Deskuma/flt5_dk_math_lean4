@@ -42,5 +42,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0032 — `exists_branchB_fifthPowerNormalForm`](./0032-exists_branchB_fifthPowerNormalForm.md)
 - [0033 — `BranchBFifthPowerCore`](./0033-BranchBFifthPowerCore.md)
 - [0034 — `branchB_false_of_fifthPowerCore`](./0034-branchB_false_of_fifthPowerCore.md) — Projects only the five facts required by the core from the complete normal form and refutes Branch B.
+- [0035 — `Body5`](./0035-Body5.md) — Names the product of the gap and `GN5` as the body of the complete fifth-power difference.
 
-The next article will cover `DkMath.FLT.Five.Body5`.
+The next article will cover `DkMath.FLT.Five.body5_eq_add_pow_sub`.
