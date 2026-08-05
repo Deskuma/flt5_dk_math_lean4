@@ -47,5 +47,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0037 — `body5_eq_fifth_power_of_fermat`](./0037-body5_eq_fifth_power_of_fermat.md) — gap 座標の `Body5` を Fermat 方程式が強制する完全第五冪 `x^5` へ接続する bridge。
 - [0038 — `counterexample_false_of_clean_GN5Channel_by_dvd`](./0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) — Fermat 方程式が与える完全第五冪 body と clean channel の非第五冪性を衝突させる局所 refuter。
 - [0039 — `BranchBCleanGN5ChannelProvider`](./0039-BranchBCleanGN5ChannelProvider.md) — 任意の Branch B 反例候補へ existential clean channel を供給する条件付き provider interface。
+- [0040 — `BranchBNoLiftEscape`](./0040-BranchBNoLiftEscape.md) — clean channel の素数性と三つの整除条件を連言で返す unbundled no-lift kernel。
 
-次号は `DkMath.FLT.Five.BranchBNoLiftEscape` を扱います。
+次号は `DkMath.FLT.Five.branchBCleanGN5ChannelProvider_of_noLiftEscape` を扱います。
