@@ -49,5 +49,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0032 | `exists_branchB_fifthPowerNormalForm` | [日本語](./ja/0032-exists_branchB_fifthPowerNormalForm.md) | [English](./en/0032-exists_branchB_fifthPowerNormalForm.md) |
 | 0033 | `BranchBFifthPowerCore` | [日本語](./ja/0033-BranchBFifthPowerCore.md) | [English](./en/0033-BranchBFifthPowerCore.md) |
 | 0034 | `branchB_false_of_fifthPowerCore` | [日本語](./ja/0034-branchB_false_of_fifthPowerCore.md) | [English](./en/0034-branchB_false_of_fifthPowerCore.md) |
+| 0035 | `Body5` | [日本語](./ja/0035-Body5.md) | [English](./en/0035-Body5.md) |
 
-Next in dependency order: `DkMath.FLT.Five.Body5`.
+Next in dependency order: `DkMath.FLT.Five.body5_eq_add_pow_sub`.
