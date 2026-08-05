@@ -44,5 +44,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0026 — `branchB_coprime_gap_GN5`](./0026-branchB_coprime_gap_GN5.md) — `CounterexamplePack` と Branch B 条件を一般因子分離定理へ接続し、$\gcd(z-y,GN5(z-y,y))=1$ を確立する境界 API。
 - [0027 — `fifth_power_factor_split`](./0027-fifth_power_factor_split.md) — 互いに素な二因子の積が第五冪なら、各因子もそれぞれ第五冪であることを導く一般冪分離エンジン。
 - [0028 — `branchB_fifth_power_factor_split`](./0028-branchB_fifth_power_factor_split.md) — Branch B の互いに素な第五冪 body を分離し、gap と `GN5` を個別の完全第五冪へ変換する exact elementary normal form。
+- [0029 — `branchB_false_of_GN5_not_fifth_power`](./0029-branchB_false_of_GN5_not_fifth_power.md) — Branch B が強制する `GN5` の第五冪性を外部の非第五冪証明と衝突させ、`False` を返す最終消費インターフェース。
 
-次号は `DkMath.FLT.Five.branchB_false_of_GN5_not_fifth_power` を扱います。
+次号は `DkMath.FLT.Five.coprime_GN5_y_of_coprime` を扱います。
