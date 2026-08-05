@@ -45,5 +45,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0035 — `Body5`](./0035-Body5.md) — gap と `GN5` の積を第五冪差全体の body として命名する定義。
 - [0036 — `body5_eq_add_pow_sub`](./0036-body5_eq_add_pow_sub.md) — `Body5` を一般の第五冪差 `(g+y)^5-y^5` へ接続する bridge。
 - [0037 — `body5_eq_fifth_power_of_fermat`](./0037-body5_eq_fifth_power_of_fermat.md) — gap 座標の `Body5` を Fermat 方程式が強制する完全第五冪 `x^5` へ接続する bridge。
+- [0038 — `counterexample_false_of_clean_GN5Channel_by_dvd`](./0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) — Fermat 方程式が与える完全第五冪 body と clean channel の非第五冪性を衝突させる局所 refuter。
 
-次号は `DkMath.FLT.Five.counterexample_false_of_clean_GN5Channel_by_dvd` を扱います。
+次号は `DkMath.FLT.Five.BranchBCleanGN5ChannelProvider` を扱います。
