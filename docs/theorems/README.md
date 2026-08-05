@@ -54,5 +54,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0037 | `body5_eq_fifth_power_of_fermat` | [日本語](./ja/0037-body5_eq_fifth_power_of_fermat.md) | [English](./en/0037-body5_eq_fifth_power_of_fermat.md) |
 | 0038 | `counterexample_false_of_clean_GN5Channel_by_dvd` | [日本語](./ja/0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) | [English](./en/0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) |
 | 0039 | `BranchBCleanGN5ChannelProvider` | [日本語](./ja/0039-BranchBCleanGN5ChannelProvider.md) | [English](./en/0039-BranchBCleanGN5ChannelProvider.md) |
+| 0040 | `BranchBNoLiftEscape` | [日本語](./ja/0040-BranchBNoLiftEscape.md) | [English](./en/0040-BranchBNoLiftEscape.md) |
 
-Next in dependency order: `DkMath.FLT.Five.BranchBNoLiftEscape`.
+Next in dependency order: `DkMath.FLT.Five.branchBCleanGN5ChannelProvider_of_noLiftEscape`.
