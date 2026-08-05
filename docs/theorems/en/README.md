@@ -45,5 +45,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0027 — `fifth_power_factor_split`](./0027-fifth_power_factor_split.md) — Splits a coprime product that is a fifth power into two factors that are individually fifth powers.
 - [0028 — `branchB_fifth_power_factor_split`](./0028-branchB_fifth_power_factor_split.md) — Splits the coprime Branch B fifth-power body and converts the gap and `GN5` into separate perfect fifth powers, yielding the exact elementary normal form.
 - [0029 — `branchB_false_of_GN5_not_fifth_power`](./0029-branchB_false_of_GN5_not_fifth_power.md) — Collides the perfect-fifth-power conclusion forced for `GN5` in Branch B with an external non-fifth-power proof, returning `False` as the final consumer interface.
+- [0030 — `coprime_GN5_y_of_coprime`](./0030-coprime_GN5_y_of_coprime.md) — Transfers $\gcd(g,y)=1$ to $\gcd(GN5(g,y),y)=1$ through the congruence modulo $y$ at the entrance of the NormalForm layer.
 
-The next article will cover `DkMath.FLT.Five.coprime_GN5_y_of_coprime`.
+The next article will cover `DkMath.FLT.Five.BranchBFifthPowerNormalForm`.
