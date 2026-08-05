@@ -48,5 +48,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0030 — `coprime_GN5_y_of_coprime`](./0030-coprime_GN5_y_of_coprime.md) — $\gcd(g,y)=1$ を $\gcd(GN5(g,y),y)=1$ へ転送する NormalForm 層入口の合同・素因子反証。
 - [0031 — `BranchBFifthPowerNormalForm`](./0031-BranchBFifthPowerNormalForm.md) — Branch B の第五冪分離結果、座標復元、正値性、互いに素性、例外素数排除を束ねる NormalForm receiver interface。
 - [0032 — `exists_branchB_fifthPowerNormalForm`](./0032-exists_branchB_fifthPowerNormalForm.md) — Branch B の因子分離から第五冪根を取り出し、座標復元・正値性・三種の互いに素性・$5\nmid a$ を備えた完全標準形を構成する provider。
+- [0033 — `BranchBFifthPowerCore`](./0033-BranchBFifthPowerCore.md) — elementary reduction 後に残る `GN5(a^5,y)=b^5` の排除問題を、必要最小限の正値性・互いに素性・$5\nmid a$ とともに表す universal consumer interface。
 
-次号は `DkMath.FLT.Five.BranchBFifthPowerCore` を扱います。
+次号は `DkMath.FLT.Five.branchB_false_of_fifthPowerCore` を扱います。
