@@ -48,5 +48,6 @@ Each article records the Lean type, mathematical statement, role in the complete
 - [0030 — `coprime_GN5_y_of_coprime`](./0030-coprime_GN5_y_of_coprime.md) — Transfers $\gcd(g,y)=1$ to $\gcd(GN5(g,y),y)=1$ through the congruence modulo $y$ at the entrance of the NormalForm layer.
 - [0031 — `BranchBFifthPowerNormalForm`](./0031-BranchBFifthPowerNormalForm.md) — Packages the Branch-B fifth-power split, coordinate reconstruction, positivity, coprimality, and exceptional-prime exclusion as the NormalForm receiver interface.
 - [0032 — `exists_branchB_fifthPowerNormalForm`](./0032-exists_branchB_fifthPowerNormalForm.md) — Extracts the two fifth roots from Branch-B factor separation and constructs the complete packet with coordinate recovery, positivity, three coprimality facts, and $5\nmid a$.
+- [0033 — `BranchBFifthPowerCore`](./0033-BranchBFifthPowerCore.md) — States the remaining exclusion problem for `GN5(a^5,y)=b^5` after elementary reduction as a universal consumer interface with only the required positivity, coprimality, and $5\nmid a$ hypotheses.
 
-The next article will cover `DkMath.FLT.Five.BranchBFifthPowerCore`.
+The next article will cover `DkMath.FLT.Five.branchB_false_of_fifthPowerCore`.
