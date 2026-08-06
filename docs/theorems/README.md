@@ -26,7 +26,7 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0009 | `GN5_eq_g_pow_four_add_five_mul` | [日本語](./ja/0009-GN5_eq_g_pow_four_add_five_mul.md) | [English](./en/0009-GN5_eq_g_pow_four_add_five_mul.md) |
 | 0010 | `add_pow_five_eq_add_mul_GN5` | [日本語](./ja/0010-add_pow_five_eq_add_mul_GN5.md) | [English](./en/0010-add_pow_five_eq_add_mul_GN5.md) |
 | 0011 | `add_pow_five_sub_eq_mul_GN5` | [日本語](./ja/0011-add_pow_five_sub_eq_mul_GN5.md) | [English](./en/0011-add_pow_five_sub_eq_mul_GN5.md) |
-| 0012 | `pow_five_sub_pow_five_eq_gap_mul_GN5` | [日本語](./ja/0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) | [English](./en/0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) |
+| 0012 | `pow_five_sub_pow_five_eq_gap_mul_GN5` | [日本語](./ja/0012-pow_five-sub-pow-five-eq-gap-mul-GN5.md) | [English](./en/0012-pow_five-sub-pow-five-eq-gap-mul-GN5.md) |
 | 0013 | `GN5_one_one` | [日本語](./ja/0013-GN5_one_one.md) | [English](./en/0013-GN5_one_one.md) |
 | 0014 | `GN5_two_one` | [日本語](./ja/0014-GN5_two_one.md) | [English](./en/0014-GN5_two_one.md) |
 | 0015 | `CleanGN5Channel` | [日本語](./ja/0015-CleanGN5Channel.md) | [English](./en/0015-CleanGN5Channel.md) |
@@ -61,5 +61,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0044 | `BranchACondition` | [日本語](./ja/0044-BranchACondition.md) | [English](./en/0044-BranchACondition.md) |
 | 0045 | `BranchARefuter` | [日本語](./ja/0045-BranchARefuter.md) | [English](./en/0045-BranchARefuter.md) |
 | 0046 | `CounterexamplePack.swap` | [日本語](./ja/0046-CounterexamplePack.swap.md) | [English](./en/0046-CounterexamplePack.swap.md) |
+| 0047 | `five_not_dvd_GN5_of_five_not_dvd_gap` | [日本語](./ja/0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) | [English](./en/0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) |
 
-Next in dependency order: `DkMath.FLT.Five.five_not_dvd_GN5_of_five_not_dvd_gap`.
+Next in dependency order: `DkMath.FLT.Five.five_not_dvd_x_of_branchB`.
