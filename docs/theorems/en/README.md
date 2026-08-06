@@ -52,5 +52,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0042 — `branchB_false_of_clean_provider_by_dvd`](./0042-branchB_false_of_clean_provider_by_dvd.md) — Consumer extracting a clean-channel witness from the bundled provider and passing it to the local refuter to close Branch B.
 - [0043 — `branchB_false_of_noLiftEscape_by_dvd`](./0043-branchB_false_of_noLiftEscape_by_dvd.md) — Façade theorem sending the unbundled no-lift kernel directly to the Branch B contradiction by composing the adapter and bundled consumer.
 - [0044 — `BranchACondition`](./0044-BranchACondition.md) — Branch predicate naming the exceptional case where the gap `z-y` is divisible by five and routing it toward the signed five-adic and golden-descent layers.
+- [0045 — `BranchARefuter`](./0045-BranchARefuter.md) — Receiver contract connecting a Branch A candidate to the completed signed five-adic and golden-order refutation.
 
-The next article will cover `DkMath.FLT.Five.BranchARefuter`.
+The next article will cover `DkMath.FLT.Five.CounterexamplePack.swap`.
