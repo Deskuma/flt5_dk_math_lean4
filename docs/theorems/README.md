@@ -62,5 +62,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0045 | `BranchARefuter` | [日本語](./ja/0045-BranchARefuter.md) | [English](./en/0045-BranchARefuter.md) |
 | 0046 | `CounterexamplePack.swap` | [日本語](./ja/0046-CounterexamplePack.swap.md) | [English](./en/0046-CounterexamplePack.swap.md) |
 | 0047 | `five_not_dvd_GN5_of_five_not_dvd_gap` | [日本語](./ja/0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) | [English](./en/0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) |
+| 0048 | `five_not_dvd_x_of_branchB` | [日本語](./ja/0048-five_not_dvd_x_of_branchB.md) | [English](./en/0048-five_not_dvd_x_of_branchB.md) |
 
-Next in dependency order: `DkMath.FLT.Five.five_not_dvd_x_of_branchB`.
+Next in dependency order: `DkMath.FLT.Five.pow_five_mod_five`.
