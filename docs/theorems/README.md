@@ -60,5 +60,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0043 | `branchB_false_of_noLiftEscape_by_dvd` | [日本語](./ja/0043-branchB_false_of_noLiftEscape_by_dvd.md) | [English](./en/0043-branchB_false_of_noLiftEscape_by_dvd.md) |
 | 0044 | `BranchACondition` | [日本語](./ja/0044-BranchACondition.md) | [English](./en/0044-BranchACondition.md) |
 | 0045 | `BranchARefuter` | [日本語](./ja/0045-BranchARefuter.md) | [English](./en/0045-BranchARefuter.md) |
+| 0046 | `CounterexamplePack.swap` | [日本語](./ja/0046-CounterexamplePack.swap.md) | [English](./en/0046-CounterexamplePack.swap.md) |
 
-Next in dependency order: `DkMath.FLT.Five.CounterexamplePack.swap`.
+Next in dependency order: `DkMath.FLT.Five.five_not_dvd_GN5_of_five_not_dvd_gap`.
