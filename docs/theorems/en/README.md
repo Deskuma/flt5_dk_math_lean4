@@ -48,5 +48,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0038 — `counterexample_false_of_clean_GN5Channel_by_dvd`](./0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) — Contradicts the perfect-fifth-power body forced by the Fermat equation with the clean channel's non-fifth-power obstruction.
 - [0039 — `BranchBCleanGN5ChannelProvider`](./0039-BranchBCleanGN5ChannelProvider.md) — Conditional provider interface supplying an existential clean channel to every Branch B counterexample candidate.
 - [0040 — `BranchBNoLiftEscape`](./0040-BranchBNoLiftEscape.md) — Unbundled no-lift kernel returning primality and three divisibility conditions for a clean channel.
+- [0041 — `branchBCleanGN5ChannelProvider_of_noLiftEscape`](./0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md) — Adapter repackaging the unbundled no-lift kernel as a bundled clean-channel provider.
 
-The next article will cover `DkMath.FLT.Five.branchBCleanGN5ChannelProvider_of_noLiftEscape`.
+The next article will cover `DkMath.FLT.Five.branchB_false_of_clean_provider_by_dvd`.
