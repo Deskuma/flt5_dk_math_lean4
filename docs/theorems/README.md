@@ -55,5 +55,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0038 | `counterexample_false_of_clean_GN5Channel_by_dvd` | [日本語](./ja/0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) | [English](./en/0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) |
 | 0039 | `BranchBCleanGN5ChannelProvider` | [日本語](./ja/0039-BranchBCleanGN5ChannelProvider.md) | [English](./en/0039-BranchBCleanGN5ChannelProvider.md) |
 | 0040 | `BranchBNoLiftEscape` | [日本語](./ja/0040-BranchBNoLiftEscape.md) | [English](./en/0040-BranchBNoLiftEscape.md) |
+| 0041 | `branchBCleanGN5ChannelProvider_of_noLiftEscape` | [日本語](./ja/0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md) | [English](./en/0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md) |
 
-Next in dependency order: `DkMath.FLT.Five.branchBCleanGN5ChannelProvider_of_noLiftEscape`.
+Next in dependency order: `DkMath.FLT.Five.branchB_false_of_clean_provider_by_dvd`.
