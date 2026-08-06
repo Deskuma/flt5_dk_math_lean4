@@ -41,22 +41,23 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0031 — `BranchBFifthPowerNormalForm`](./0031-BranchBFifthPowerNormalForm.md)
 - [0032 — `exists_branchB_fifthPowerNormalForm`](./0032-exists_branchB_fifthPowerNormalForm.md)
 - [0033 — `BranchBFifthPowerCore`](./0033-BranchBFifthPowerCore.md)
-- [0034 — `branchB_false_of_fifthPowerCore`](./0034-branchB_false_of_fifthPowerCore.md) — Projects only the five facts required by the core from the complete normal form and refutes Branch B.
-- [0035 — `Body5`](./0035-Body5.md) — Names the product of the gap and `GN5` as the body of the complete fifth-power difference.
-- [0036 — `body5_eq_add_pow_sub`](./0036-body5_eq_add_pow_sub.md) — Connects `Body5` to the general fifth-power difference `(g+y)^5-y^5`.
-- [0037 — `body5_eq_fifth_power_of_fermat`](./0037-body5_eq_fifth_power_of_fermat.md) — Connects the gap-coordinate `Body5` to the perfect fifth power `x^5` forced by the Fermat equation.
-- [0038 — `counterexample_false_of_clean_GN5Channel_by_dvd`](./0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) — Contradicts the perfect-fifth-power body forced by the Fermat equation with the clean channel's non-fifth-power obstruction.
-- [0039 — `BranchBCleanGN5ChannelProvider`](./0039-BranchBCleanGN5ChannelProvider.md) — Conditional provider interface supplying an existential clean channel to every Branch B counterexample candidate.
-- [0040 — `BranchBNoLiftEscape`](./0040-BranchBNoLiftEscape.md) — Unbundled no-lift kernel returning primality and three divisibility conditions for a clean channel.
-- [0041 — `branchBCleanGN5ChannelProvider_of_noLiftEscape`](./0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md) — Adapter repackaging the unbundled no-lift kernel as a bundled clean-channel provider.
-- [0042 — `branchB_false_of_clean_provider_by_dvd`](./0042-branchB_false_of_clean_provider_by_dvd.md) — Consumer extracting a clean-channel witness from the bundled provider and passing it to the local refuter to close Branch B.
-- [0043 — `branchB_false_of_noLiftEscape_by_dvd`](./0043-branchB_false_of_noLiftEscape_by_dvd.md) — Façade theorem sending the unbundled no-lift kernel directly to the Branch B contradiction by composing the adapter and bundled consumer.
-- [0044 — `BranchACondition`](./0044-BranchACondition.md) — Branch predicate naming the exceptional case where the gap `z-y` is divisible by five and routing it toward the signed five-adic and golden-descent layers.
-- [0045 — `BranchARefuter`](./0045-BranchARefuter.md) — Receiver contract connecting a Branch A candidate to the completed signed five-adic and golden-order refutation.
-- [0046 — `CounterexamplePack.swap`](./0046-CounterexamplePack.swap.md) — Symmetry bridge preserving positivity, primitivity, and the Fermat equation when the two left terms are exchanged, normalizing signed branches to one orientation.
-- [0047 — `five_not_dvd_GN5_of_five_not_dvd_gap`](./0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) — Entry lemma deriving that the residual is also indivisible by five from the decomposition `GN5(g,y)=g^4+5K` and a gap not divisible by five.
-- [0048 — `five_not_dvd_x_of_branchB`](./0048-five_not_dvd_x_of_branchB.md) — Consumer expanding the Fermat body as a product and using primality of five plus article 0047 to show that the first coordinate of a Branch B candidate is not divisible by five.
-- [0049 — `pow_five_mod_five`](./0049-pow_five_mod_five.md) — Finite-residue arithmetic kernel reducing fifth powers to their bases modulo five.
-- [0050 — `five_dvd_z_sub_x_of_fermat5_of_five_dvd_y`](./0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md) — Routing bridge that inserts `5 ∣ y` into the modulo-five Fermat equation and proves that the swapped difference gap `z-x` is divisible by five.
+- [0034 — `branchB_false_of_fifthPowerCore`](./0034-branchB_false_of_fifthPowerCore.md)
+- [0035 — `Body5`](./0035-Body5.md)
+- [0036 — `body5_eq_add_pow_sub`](./0036-body5_eq_add_pow_sub.md)
+- [0037 — `body5_eq_fifth_power_of_fermat`](./0037-body5_eq_fifth_power_of_fermat.md)
+- [0038 — `counterexample_false_of_clean_GN5Channel_by_dvd`](./0038-counterexample_false_of_clean_GN5Channel_by_dvd.md)
+- [0039 — `BranchBCleanGN5ChannelProvider`](./0039-BranchBCleanGN5ChannelProvider.md)
+- [0040 — `BranchBNoLiftEscape`](./0040-BranchBNoLiftEscape.md)
+- [0041 — `branchBCleanGN5ChannelProvider_of_noLiftEscape`](./0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md)
+- [0042 — `branchB_false_of_clean_provider_by_dvd`](./0042-branchB_false_of_clean_provider_by_dvd.md)
+- [0043 — `branchB_false_of_noLiftEscape_by_dvd`](./0043-branchB_false_of_noLiftEscape_by_dvd.md)
+- [0044 — `BranchACondition`](./0044-BranchACondition.md)
+- [0045 — `BranchARefuter`](./0045-BranchARefuter.md)
+- [0046 — `CounterexamplePack.swap`](./0046-CounterexamplePack.swap.md)
+- [0047 — `five_not_dvd_GN5_of_five_not_dvd_gap`](./0047-five_not_dvd_GN5_of_five_not_dvd_gap.md)
+- [0048 — `five_not_dvd_x_of_branchB`](./0048-five_not_dvd_x_of_branchB.md)
+- [0049 — `pow_five_mod_five`](./0049-pow_five_mod_five.md)
+- [0050 — `five_dvd_z_sub_x_of_fermat5_of_five_dvd_y`](./0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md)
+- [0051 — `five_dvd_x_add_y_of_fermat5_of_five_dvd_z`](./0051-five_dvd_x_add_y_of_fermat5_of_five_dvd_z.md)
 
-The next article will cover `DkMath.FLT.Five.five_dvd_x_add_y_of_fermat5_of_five_dvd_z`.
+The next article will cover `DkMath.FLT.Five.SignedBranchAOrientation`.
