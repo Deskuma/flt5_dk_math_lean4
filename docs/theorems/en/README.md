@@ -54,5 +54,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0044 — `BranchACondition`](./0044-BranchACondition.md) — Branch predicate naming the exceptional case where the gap `z-y` is divisible by five and routing it toward the signed five-adic and golden-descent layers.
 - [0045 — `BranchARefuter`](./0045-BranchARefuter.md) — Receiver contract connecting a Branch A candidate to the completed signed five-adic and golden-order refutation.
 - [0046 — `CounterexamplePack.swap`](./0046-CounterexamplePack.swap.md) — Symmetry bridge preserving positivity, primitivity, and the Fermat equation when the two left terms are exchanged, normalizing signed branches to one orientation.
+- [0047 — `five_not_dvd_GN5_of_five_not_dvd_gap`](./0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) — Entry lemma deriving that the residual is also indivisible by five from the decomposition `GN5(g,y)=g^4+5K` and a gap not divisible by five.
 
-The next article will cover `DkMath.FLT.Five.five_not_dvd_GN5_of_five_not_dvd_gap`.
+The next article will cover `DkMath.FLT.Five.five_not_dvd_x_of_branchB`.
