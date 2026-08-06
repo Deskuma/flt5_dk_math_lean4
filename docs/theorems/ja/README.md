@@ -52,5 +52,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0042 — `branchB_false_of_clean_provider_by_dvd`](./0042-branchB_false_of_clean_provider_by_dvd.md) — bundled provider から clean channel の存在証人を取り出し、局所 refuter へ渡して Branch B を閉じる consumer。
 - [0043 — `branchB_false_of_noLiftEscape_by_dvd`](./0043-branchB_false_of_noLiftEscape_by_dvd.md) — unbundled no-lift kernel を adapter と bundled consumer の合成により Branch B の矛盾へ直接送る façade theorem。
 - [0044 — `BranchACondition`](./0044-BranchACondition.md) — gap `z-y` が 5 で割り切れる例外側を、後続の signed five-adic / golden descent へ渡す分岐 predicate。
+- [0045 — `BranchARefuter`](./0045-BranchARefuter.md) — Branch A 候補を signed five-adic / golden-order 降下の完成済み反証へ接続する受け口契約。
 
-次号は `DkMath.FLT.Five.BranchARefuter` を扱います。
+次号は `DkMath.FLT.Five.CounterexamplePack.swap` を扱います。
