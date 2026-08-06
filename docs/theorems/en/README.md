@@ -59,5 +59,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0049 — `pow_five_mod_five`](./0049-pow_five_mod_five.md)
 - [0050 — `five_dvd_z_sub_x_of_fermat5_of_five_dvd_y`](./0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md)
 - [0051 — `five_dvd_x_add_y_of_fermat5_of_five_dvd_z`](./0051-five_dvd_x_add_y_of_fermat5_of_five_dvd_z.md)
+- [0052 — `SignedBranchAOrientation`](./0052-SignedBranchAOrientation.md)
 
-The next article will cover `DkMath.FLT.Five.SignedBranchAOrientation`.
+The next article will cover `DkMath.FLT.Five.SignedBranchANormalForm`.
