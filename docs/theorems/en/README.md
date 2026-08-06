@@ -49,5 +49,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0039 — `BranchBCleanGN5ChannelProvider`](./0039-BranchBCleanGN5ChannelProvider.md) — Conditional provider interface supplying an existential clean channel to every Branch B counterexample candidate.
 - [0040 — `BranchBNoLiftEscape`](./0040-BranchBNoLiftEscape.md) — Unbundled no-lift kernel returning primality and three divisibility conditions for a clean channel.
 - [0041 — `branchBCleanGN5ChannelProvider_of_noLiftEscape`](./0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md) — Adapter repackaging the unbundled no-lift kernel as a bundled clean-channel provider.
+- [0042 — `branchB_false_of_clean_provider_by_dvd`](./0042-branchB_false_of_clean_provider_by_dvd.md) — Consumer extracting a clean-channel witness from the bundled provider and passing it to the local refuter to close Branch B.
 
-The next article will cover `DkMath.FLT.Five.branchB_false_of_clean_provider_by_dvd`.
+The next article will cover `DkMath.FLT.Five.branchB_false_of_noLiftEscape_by_dvd`.
