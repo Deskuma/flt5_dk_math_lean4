@@ -54,5 +54,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0044 — `BranchACondition`](./0044-BranchACondition.md) — gap `z-y` が 5 で割り切れる例外側を、後続の signed five-adic / golden descent へ渡す分岐 predicate。
 - [0045 — `BranchARefuter`](./0045-BranchARefuter.md) — Branch A 候補を signed five-adic / golden-order 降下の完成済み反証へ接続する受け口契約。
 - [0046 — `CounterexamplePack.swap`](./0046-CounterexamplePack.swap.md) — 左辺二項の交換で正値・原始性・Fermat 方程式を保ち、signed 分岐を一方向の補題へ正規化する対称性 bridge。
+- [0047 — `five_not_dvd_GN5_of_five_not_dvd_gap`](./0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) — 五進分解 `GN5(g,y)=g^4+5K` から、gap が 5 で割れなければ residual も 5 で割れないことを示す入口補題。
 
-次号は `DkMath.FLT.Five.five_not_dvd_GN5_of_five_not_dvd_gap` を扱います。
+次号は `DkMath.FLT.Five.five_not_dvd_x_of_branchB` を扱います。
