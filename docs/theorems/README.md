@@ -27,7 +27,7 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0010 | `add_pow_five_eq_add_mul_GN5` | [日本語](./ja/0010-add_pow_five_eq_add_mul_GN5.md) | [English](./en/0010-add_pow_five_eq_add_mul_GN5.md) |
 | 0011 | `add_pow_five_sub_eq_mul_GN5` | [日本語](./ja/0011-add_pow_five_sub_eq_mul_GN5.md) | [English](./en/0011-add_pow_five_sub_eq_mul_GN5.md) |
 | 0012 | `pow_five_sub_pow_five_eq_gap_mul_GN5` | [日本語](./ja/0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) | [English](./en/0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) |
-| 0013 | `GN5_one_one` | [日本語](./ja/0013-GN5_one_one.md) | [English](./en/0013-GN5_one_one.md) |
+| 0013 | `GN5_one_one` | [日本語](./ja/0013-GN5_one_one.md) | [English](./en/0013-GN5-one-one.md) |
 | 0014 | `GN5_two_one` | [日本語](./ja/0014-GN5_two_one.md) | [English](./en/0014-GN5_two_one.md) |
 | 0015 | `CleanGN5Channel` | [日本語](./ja/0015-CleanGN5Channel.md) | [English](./en/0015-CleanGN5Channel.md) |
 | 0016 | `CleanGN5Channel.dvd_body` | [日本語](./ja/0016-CleanGN5Channel.dvd_body.md) | [English](./en/0016-CleanGN5Channel.dvd_body.md) |
@@ -64,5 +64,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0047 | `five_not_dvd_GN5_of_five_not_dvd_gap` | [日本語](./ja/0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) | [English](./en/0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) |
 | 0048 | `five_not_dvd_x_of_branchB` | [日本語](./ja/0048-five_not_dvd_x_of_branchB.md) | [English](./en/0048-five_not_dvd_x_of_branchB.md) |
 | 0049 | `pow_five_mod_five` | [日本語](./ja/0049-pow_five_mod_five.md) | [English](./en/0049-pow_five_mod_five.md) |
+| 0050 | `five_dvd_z_sub_x_of_fermat5_of_five_dvd_y` | [日本語](./ja/0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md) | [English](./en/0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md) |
 
-Next in dependency order: `DkMath.FLT.Five.five_dvd_z_sub_x_of_fermat5_of_five_dvd_y`.
+Next in dependency order: `DkMath.FLT.Five.five_dvd_x_add_y_of_fermat5_of_five_dvd_z`.
