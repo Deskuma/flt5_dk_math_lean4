@@ -65,5 +65,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0048 | `five_not_dvd_x_of_branchB` | [日本語](./ja/0048-five_not_dvd_x_of_branchB.md) | [English](./en/0048-five_not_dvd_x_of_branchB.md) |
 | 0049 | `pow_five_mod_five` | [日本語](./ja/0049-pow_five_mod_five.md) | [English](./en/0049-pow_five_mod_five.md) |
 | 0050 | `five_dvd_z_sub_x_of_fermat5_of_five_dvd_y` | [日本語](./ja/0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md) | [English](./en/0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md) |
+| 0051 | `five_dvd_x_add_y_of_fermat5_of_five_dvd_z` | [日本語](./ja/0051-five_dvd_x_add_y_of_fermat5_of_five_dvd_z.md) | [English](./en/0051-five_dvd_x_add_y_of_fermat5_of_five_dvd_z.md) |
 
-Next in dependency order: `DkMath.FLT.Five.five_dvd_x_add_y_of_fermat5_of_five_dvd_z`.
+Next in dependency order: `DkMath.FLT.Five.SignedBranchAOrientation`.
