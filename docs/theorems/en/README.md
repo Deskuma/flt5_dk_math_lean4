@@ -50,5 +50,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0040 — `BranchBNoLiftEscape`](./0040-BranchBNoLiftEscape.md) — Unbundled no-lift kernel returning primality and three divisibility conditions for a clean channel.
 - [0041 — `branchBCleanGN5ChannelProvider_of_noLiftEscape`](./0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md) — Adapter repackaging the unbundled no-lift kernel as a bundled clean-channel provider.
 - [0042 — `branchB_false_of_clean_provider_by_dvd`](./0042-branchB_false_of_clean_provider_by_dvd.md) — Consumer extracting a clean-channel witness from the bundled provider and passing it to the local refuter to close Branch B.
+- [0043 — `branchB_false_of_noLiftEscape_by_dvd`](./0043-branchB_false_of_noLiftEscape_by_dvd.md) — Façade theorem sending the unbundled no-lift kernel directly to the Branch B contradiction by composing the adapter and bundled consumer.
 
-The next article will cover `DkMath.FLT.Five.branchB_false_of_noLiftEscape_by_dvd`.
+The next article will cover `DkMath.FLT.Five.BranchACondition`.
