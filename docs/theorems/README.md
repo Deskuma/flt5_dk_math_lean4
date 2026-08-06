@@ -58,5 +58,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0041 | `branchBCleanGN5ChannelProvider_of_noLiftEscape` | [日本語](./ja/0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md) | [English](./en/0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md) |
 | 0042 | `branchB_false_of_clean_provider_by_dvd` | [日本語](./ja/0042-branchB_false_of_clean_provider_by_dvd.md) | [English](./en/0042-branchB_false_of_clean_provider_by_dvd.md) |
 | 0043 | `branchB_false_of_noLiftEscape_by_dvd` | [日本語](./ja/0043-branchB_false_of_noLiftEscape_by_dvd.md) | [English](./en/0043-branchB_false_of_noLiftEscape_by_dvd.md) |
+| 0044 | `BranchACondition` | [日本語](./ja/0044-BranchACondition.md) | [English](./en/0044-BranchACondition.md) |
 
-Next in dependency order: `DkMath.FLT.Five.BranchACondition`.
+Next in dependency order: `DkMath.FLT.Five.BranchARefuter`.
