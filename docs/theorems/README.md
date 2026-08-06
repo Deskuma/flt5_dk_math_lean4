@@ -26,7 +26,7 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0009 | `GN5_eq_g_pow_four_add_five_mul` | [日本語](./ja/0009-GN5_eq_g_pow_four_add_five_mul.md) | [English](./en/0009-GN5_eq_g_pow_four_add_five_mul.md) |
 | 0010 | `add_pow_five_eq_add_mul_GN5` | [日本語](./ja/0010-add_pow_five_eq_add_mul_GN5.md) | [English](./en/0010-add_pow_five_eq_add_mul_GN5.md) |
 | 0011 | `add_pow_five_sub_eq_mul_GN5` | [日本語](./ja/0011-add_pow_five_sub_eq_mul_GN5.md) | [English](./en/0011-add_pow_five_sub_eq_mul_GN5.md) |
-| 0012 | `pow_five_sub_pow_five_eq_gap_mul_GN5` | [日本語](./ja/0012-pow_five-sub-pow-five-eq-gap-mul-GN5.md) | [English](./en/0012-pow_five-sub-pow-five-eq-gap-mul-GN5.md) |
+| 0012 | `pow_five_sub_pow_five_eq_gap_mul_GN5` | [日本語](./ja/0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) | [English](./en/0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) |
 | 0013 | `GN5_one_one` | [日本語](./ja/0013-GN5_one_one.md) | [English](./en/0013-GN5_one_one.md) |
 | 0014 | `GN5_two_one` | [日本語](./ja/0014-GN5_two_one.md) | [English](./en/0014-GN5_two_one.md) |
 | 0015 | `CleanGN5Channel` | [日本語](./ja/0015-CleanGN5Channel.md) | [English](./en/0015-CleanGN5Channel.md) |
