@@ -41,22 +41,23 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0031 — `BranchBFifthPowerNormalForm`](./0031-BranchBFifthPowerNormalForm.md)
 - [0032 — `exists_branchB_fifthPowerNormalForm`](./0032-exists_branchB_fifthPowerNormalForm.md)
 - [0033 — `BranchBFifthPowerCore`](./0033-BranchBFifthPowerCore.md)
-- [0034 — `branchB_false_of_fifthPowerCore`](./0034-branchB_false_of_fifthPowerCore.md) — 完全標準形から core に必要な五項だけを射影し、Branch B を反証する adapter。
-- [0035 — `Body5`](./0035-Body5.md) — gap と `GN5` の積を第五冪差全体の body として命名する定義。
-- [0036 — `body5_eq_add_pow_sub`](./0036-body5_eq_add_pow_sub.md) — `Body5` を一般の第五冪差 `(g+y)^5-y^5` へ接続する bridge。
-- [0037 — `body5_eq_fifth_power_of_fermat`](./0037-body5_eq_fifth_power_of_fermat.md) — gap 座標の `Body5` を Fermat 方程式が強制する完全第五冪 `x^5` へ接続する bridge。
-- [0038 — `counterexample_false_of_clean_GN5Channel_by_dvd`](./0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) — Fermat 方程式が与える完全第五冪 body と clean channel の非第五冪性を衝突させる局所 refuter。
-- [0039 — `BranchBCleanGN5ChannelProvider`](./0039-BranchBCleanGN5ChannelProvider.md) — 任意の Branch B 反例候補へ existential clean channel を供給する条件付き provider interface。
-- [0040 — `BranchBNoLiftEscape`](./0040-BranchBNoLiftEscape.md) — clean channel の素数性と三つの整除条件を連言で返す unbundled no-lift kernel。
-- [0041 — `branchBCleanGN5ChannelProvider_of_noLiftEscape`](./0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md) — unbundled no-lift kernel を bundled clean-channel provider へ再梱包する adapter。
-- [0042 — `branchB_false_of_clean_provider_by_dvd`](./0042-branchB_false_of_clean_provider_by_dvd.md) — bundled provider から clean channel の存在証人を取り出し、局所 refuter へ渡して Branch B を閉じる consumer。
-- [0043 — `branchB_false_of_noLiftEscape_by_dvd`](./0043-branchB_false_of_noLiftEscape_by_dvd.md) — unbundled no-lift kernel を adapter と bundled consumer の合成により Branch B の矛盾へ直接送る façade theorem。
-- [0044 — `BranchACondition`](./0044-BranchACondition.md) — gap `z-y` が 5 で割り切れる例外側を、後続の signed five-adic / golden descent へ渡す分岐 predicate。
-- [0045 — `BranchARefuter`](./0045-BranchARefuter.md) — Branch A 候補を signed five-adic / golden-order 降下の完成済み反証へ接続する受け口契約。
-- [0046 — `CounterexamplePack.swap`](./0046-CounterexamplePack.swap.md) — 左辺二項の交換で正値・原始性・Fermat 方程式を保ち、signed 分岐を一方向の補題へ正規化する対称性 bridge。
-- [0047 — `five_not_dvd_GN5_of_five_not_dvd_gap`](./0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) — 五進分解 `GN5(g,y)=g^4+5K` から、gap が 5 で割れなければ residual も 5 で割れないことを示す入口補題。
-- [0048 — `five_not_dvd_x_of_branchB`](./0048-five_not_dvd_x_of_branchB.md) — Fermat body を積へ展開し、5 の素数性と 0047 を用いて Branch B 候補の第一座標が 5 で割れないことを示す consumer。
-- [0049 — `pow_five_mod_five`](./0049-pow_five_mod_five.md) — 第五冪を法 5 で底へ落とす有限剰余類の算術核。
-- [0050 — `five_dvd_z_sub_x_of_fermat5_of_five_dvd_y`](./0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md) — `5 ∣ y` を Fermat 方程式の法 5 正規化へ入れ、交換後の difference gap `z-x` が 5 で割れることを示す routing bridge。
+- [0034 — `branchB_false_of_fifthPowerCore`](./0034-branchB_false_of_fifthPowerCore.md)
+- [0035 — `Body5`](./0035-Body5.md)
+- [0036 — `body5_eq_add_pow_sub`](./0036-body5_eq_add_pow_sub.md)
+- [0037 — `body5_eq_fifth_power_of_fermat`](./0037-body5_eq_fifth_power_of_fermat.md)
+- [0038 — `counterexample_false_of_clean_GN5Channel_by_dvd`](./0038-counterexample_false_of_clean_GN5Channel_by_dvd.md)
+- [0039 — `BranchBCleanGN5ChannelProvider`](./0039-BranchBCleanGN5ChannelProvider.md)
+- [0040 — `BranchBNoLiftEscape`](./0040-BranchBNoLiftEscape.md)
+- [0041 — `branchBCleanGN5ChannelProvider_of_noLiftEscape`](./0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md)
+- [0042 — `branchB_false_of_clean_provider_by_dvd`](./0042-branchB_false_of_clean_provider_by_dvd.md)
+- [0043 — `branchB_false_of_noLiftEscape_by_dvd`](./0043-branchB_false_of_noLiftEscape_by_dvd.md)
+- [0044 — `BranchACondition`](./0044-BranchACondition.md)
+- [0045 — `BranchARefuter`](./0045-BranchARefuter.md)
+- [0046 — `CounterexamplePack.swap`](./0046-CounterexamplePack.swap.md)
+- [0047 — `five_not_dvd_GN5_of_five_not_dvd_gap`](./0047-five_not_dvd_GN5_of_five_not_dvd_gap.md)
+- [0048 — `five_not_dvd_x_of_branchB`](./0048-five_not_dvd_x_of_branchB.md)
+- [0049 — `pow_five_mod_five`](./0049-pow_five_mod_five.md)
+- [0050 — `five_dvd_z_sub_x_of_fermat5_of_five_dvd_y`](./0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md)
+- [0051 — `five_dvd_x_add_y_of_fermat5_of_five_dvd_z`](./0051-five_dvd_x_add_y_of_fermat5_of_five_dvd_z.md)
 
-次号は `DkMath.FLT.Five.five_dvd_x_add_y_of_fermat5_of_five_dvd_z` を扱います。
+次号は `DkMath.FLT.Five.SignedBranchAOrientation` を扱います。
