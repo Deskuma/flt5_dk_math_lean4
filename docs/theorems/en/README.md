@@ -56,5 +56,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0046 — `CounterexamplePack.swap`](./0046-CounterexamplePack.swap.md) — Symmetry bridge preserving positivity, primitivity, and the Fermat equation when the two left terms are exchanged, normalizing signed branches to one orientation.
 - [0047 — `five_not_dvd_GN5_of_five_not_dvd_gap`](./0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) — Entry lemma deriving that the residual is also indivisible by five from the decomposition `GN5(g,y)=g^4+5K` and a gap not divisible by five.
 - [0048 — `five_not_dvd_x_of_branchB`](./0048-five_not_dvd_x_of_branchB.md) — Consumer expanding the Fermat body as a product and using primality of five plus article 0047 to show that the first coordinate of a Branch B candidate is not divisible by five.
+- [0049 — `pow_five_mod_five`](./0049-pow_five_mod_five.md) — Finite-residue arithmetic kernel reducing fifth powers to their bases modulo five.
 
-The next article will cover `DkMath.FLT.Five.pow_five_mod_five`.
+The next article will cover `DkMath.FLT.Five.five_dvd_z_sub_x_of_fermat5_of_five_dvd_y`.
