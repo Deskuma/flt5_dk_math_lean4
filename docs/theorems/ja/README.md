@@ -39,7 +39,7 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0029 — `branchB_false_of_GN5_not_fifth_power`](./0029-branchB_false_of_GN5_not_fifth_power.md)
 - [0030 — `coprime_GN5_y_of_coprime`](./0030-coprime_GN5_y_of_coprime.md)
 - [0031 — `BranchBFifthPowerNormalForm`](./0031-BranchBFifthPowerNormalForm.md)
-- [0032 — `exists_branchB_fifthPowerNormalForm`](./0032-exists_branchB-fifthPowerNormalForm.md)
+- [0032 — `exists_branchB_fifthPowerNormalForm`](./0032-exists_branchB_fifthPowerNormalForm.md)
 - [0033 — `BranchBFifthPowerCore`](./0033-BranchBFifthPowerCore.md)
 - [0034 — `branchB_false_of_fifthPowerCore`](./0034-branchB_false_of_fifthPowerCore.md)
 - [0035 — `Body5`](./0035-Body5.md)
