@@ -70,5 +70,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0053 | `SignedBranchANormalForm` | [日本語](./ja/0053-SignedBranchANormalForm.md) | [English](./en/0053-SignedBranchANormalForm.md) |
 | 0054 | `mod25_fifth_residue_classification` | [日本語](./ja/0054-mod25_fifth_residue_classification.md) | [English](./en/0054-mod25_fifth_residue_classification.md) |
 | 0055 | `five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x` | [日本語](./ja/0055-five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x.md) | [English](./en/0055-five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x.md) |
+| 0056 | `signedBranchA_normalForm_of_branchB` | [日本語](./ja/0056-signedBranchA_normalForm_of_branchB.md) | [English](./en/0056-signedBranchA_normalForm_of_branchB.md) |
 
-Next in dependency order: `DkMath.FLT.Five.signedBranchA_normalForm_of_branchB`.
+Next in dependency order: `DkMath.FLT.Five.SignedBranchARefuter`.
