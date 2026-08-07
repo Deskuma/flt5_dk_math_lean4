@@ -69,5 +69,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0059 — `SumGN5`](./0059-SumGN5.md)
 - [0060 — `add_mul_sumGN5_eq_add_pow_five`](./0060-add_mul_sumGN5_eq_add_pow_five.md)
 - [0061 — `sumGN5_pos`](./0061-sumGN5_pos.md)
+- [0062 — `five_not_dvd_left_of_coprime_of_dvd_add`](./0062-five_not_dvd_left_of_coprime_of_dvd_add.md)
 
-次号は `DkMath.FLT.Five.five_not_dvd_left_of_coprime_of_dvd_add` を扱います。
+次号は `DkMath.FLT.Five.five_not_dvd_right_of_coprime_of_dvd_add` を扱います。
