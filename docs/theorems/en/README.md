@@ -64,5 +64,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0054 — `mod25_fifth_residue_classification`](./0054-mod25_fifth_residue_classification.md)
 - [0055 — `five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x`](./0055-five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x.md)
 - [0056 — `signedBranchA_normalForm_of_branchB`](./0056-signedBranchA_normalForm_of_branchB.md)
+- [0057 — `SignedBranchARefuter`](./0057-SignedBranchARefuter.md)
 
-The next article will cover `DkMath.FLT.Five.SignedBranchARefuter`.
+The next article will cover `DkMath.FLT.Five.branchB_false_of_signedBranchARefuter`.
