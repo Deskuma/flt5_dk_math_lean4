@@ -76,5 +76,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0059 | `SumGN5` | [日本語](./ja/0059-SumGN5.md) | [English](./en/0059-SumGN5.md) |
 | 0060 | `add_mul_sumGN5_eq_add_pow_five` | [日本語](./ja/0060-add_mul_sumGN5_eq_add_pow_five.md) | [English](./en/0060-add_mul_sumGN5_eq_add_pow_five.md) |
 | 0061 | `sumGN5_pos` | [日本語](./ja/0061-sumGN5_pos.md) | [English](./en/0061-sumGN5_pos.md) |
+| 0062 | `five_not_dvd_left_of_coprime_of_dvd_add` | [日本語](./ja/0062-five_not_dvd_left_of_coprime_of_dvd_add.md) | [English](./en/0062-five_not_dvd_left_of_coprime_of_dvd_add.md) |
 
-Next in dependency order: `DkMath.FLT.Five.five_not_dvd_left_of_coprime_of_dvd_add`.
+Next in dependency order: `DkMath.FLT.Five.five_not_dvd_right_of_coprime_of_dvd_add`.
