@@ -66,5 +66,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0056 — `signedBranchA_normalForm_of_branchB`](./0056-signedBranchA_normalForm_of_branchB.md)
 - [0057 — `SignedBranchARefuter`](./0057-SignedBranchARefuter.md)
 - [0058 — `branchB_false_of_signedBranchARefuter`](./0058-branchB_false_of_signedBranchARefuter.md)
+- [0059 — `SumGN5`](./0059-SumGN5.md)
 
-The next article will cover `DkMath.FLT.Five.SumGN5`.
+The next article will cover `DkMath.FLT.Five.add_mul_sumGN5_eq_add_pow_five`.
