@@ -78,5 +78,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0061 | `sumGN5_pos` | [日本語](./ja/0061-sumGN5_pos.md) | [English](./en/0061-sumGN5_pos.md) |
 | 0062 | `five_not_dvd_left_of_coprime_of_dvd_add` | [日本語](./ja/0062-five_not_dvd_left_of_coprime_of_dvd_add.md) | [English](./en/0062-five_not_dvd_left_of_coprime_of_dvd_add.md) |
 | 0063 | `five_not_dvd_right_of_coprime_of_dvd_add` | [日本語](./ja/0063-five_not_dvd_right_of_coprime_of_dvd_add.md) | [English](./en/0063-five_not_dvd_right_of_coprime_of_dvd_add.md) |
+| 0064 | `fourth_power_mod_five_eq_one` | [日本語](./ja/0064-fourth_power_mod_five_eq_one.md) | [English](./en/0064-fourth_power_mod_five_eq_one.md) |
 
-Next in dependency order: `DkMath.FLT.Five.SumGN5_cast_mod25_eq_five`.
+Next in dependency order: `DkMath.FLT.Five.fourth_power_zmod25_decomposition`.
