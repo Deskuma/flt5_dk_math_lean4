@@ -67,5 +67,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0050 | `five_dvd_z_sub_x_of_fermat5_of_five_dvd_y` | [日本語](./ja/0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md) | [English](./en/0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md) |
 | 0051 | `five_dvd_x_add_y_of_fermat5_of_five_dvd_z` | [日本語](./ja/0051-five_dvd_x_add_y_of_fermat5_of_five_dvd_z.md) | [English](./en/0051-five_dvd_x_add_y_of_fermat5_of_five_dvd_z.md) |
 | 0052 | `SignedBranchAOrientation` | [日本語](./ja/0052-SignedBranchAOrientation.md) | [English](./en/0052-SignedBranchAOrientation.md) |
+| 0053 | `SignedBranchANormalForm` | [日本語](./ja/0053-SignedBranchANormalForm.md) | [English](./en/0053-SignedBranchANormalForm.md) |
 
-Next in dependency order: `DkMath.FLT.Five.SignedBranchANormalForm`.
+Next in dependency order: `DkMath.FLT.Five.signedBranchA_normalForm_of_branchB`.
