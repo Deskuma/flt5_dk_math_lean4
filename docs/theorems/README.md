@@ -72,5 +72,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0055 | `five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x` | [日本語](./ja/0055-five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x.md) | [English](./en/0055-five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x.md) |
 | 0056 | `signedBranchA_normalForm_of_branchB` | [日本語](./ja/0056-signedBranchA_normalForm_of_branchB.md) | [English](./en/0056-signedBranchA_normalForm_of_branchB.md) |
 | 0057 | `SignedBranchARefuter` | [日本語](./ja/0057-SignedBranchARefuter.md) | [English](./en/0057-SignedBranchARefuter.md) |
+| 0058 | `branchB_false_of_signedBranchARefuter` | [日本語](./ja/0058-branchB_false_of_signedBranchARefuter.md) | [English](./en/0058-branchB_false_of_signedBranchARefuter.md) |
 
-Next in dependency order: `DkMath.FLT.Five.branchB_false_of_signedBranchARefuter`.
+Next in dependency order: `DkMath.FLT.Five.SumGN5`.
