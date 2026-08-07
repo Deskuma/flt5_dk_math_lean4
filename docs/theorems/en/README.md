@@ -71,5 +71,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0061 — `sumGN5_pos`](./0061-sumGN5_pos.md)
 - [0062 — `five_not_dvd_left_of_coprime_of_dvd_add`](./0062-five_not_dvd_left_of_coprime_of_dvd_add.md)
 - [0063 — `five_not_dvd_right_of_coprime_of_dvd_add`](./0063-five_not_dvd_right_of_coprime_of_dvd_add.md)
+- [0064 — `fourth_power_mod_five_eq_one`](./0064-fourth_power_mod_five_eq_one.md)
 
-The next article will cover `DkMath.FLT.Five.SumGN5_cast_mod25_eq_five`.
+The next article will cover `DkMath.FLT.Five.fourth_power_zmod25_decomposition`.
