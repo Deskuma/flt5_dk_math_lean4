@@ -70,5 +70,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0060 — `add_mul_sumGN5_eq_add_pow_five`](./0060-add_mul_sumGN5_eq_add_pow_five.md)
 - [0061 — `sumGN5_pos`](./0061-sumGN5_pos.md)
 - [0062 — `five_not_dvd_left_of_coprime_of_dvd_add`](./0062-five_not_dvd_left_of_coprime_of_dvd_add.md)
+- [0063 — `five_not_dvd_right_of_coprime_of_dvd_add`](./0063-five_not_dvd_right_of_coprime_of_dvd_add.md)
 
-The next article will cover `DkMath.FLT.Five.five_not_dvd_right_of_coprime_of_dvd_add`.
+The next article will cover `DkMath.FLT.Five.SumGN5_cast_mod25_eq_five`.
