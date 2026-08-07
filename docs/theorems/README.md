@@ -73,5 +73,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0056 | `signedBranchA_normalForm_of_branchB` | [日本語](./ja/0056-signedBranchA_normalForm_of_branchB.md) | [English](./en/0056-signedBranchA_normalForm_of_branchB.md) |
 | 0057 | `SignedBranchARefuter` | [日本語](./ja/0057-SignedBranchARefuter.md) | [English](./en/0057-SignedBranchARefuter.md) |
 | 0058 | `branchB_false_of_signedBranchARefuter` | [日本語](./ja/0058-branchB_false_of_signedBranchARefuter.md) | [English](./en/0058-branchB_false_of_signedBranchARefuter.md) |
+| 0059 | `SumGN5` | [日本語](./ja/0059-SumGN5.md) | [English](./en/0059-SumGN5.md) |
 
-Next in dependency order: `DkMath.FLT.Five.SumGN5`.
+Next in dependency order: `DkMath.FLT.Five.add_mul_sumGN5_eq_add_pow_five`.
