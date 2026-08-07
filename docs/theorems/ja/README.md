@@ -65,5 +65,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0055 — `five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x`](./0055-five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x.md)
 - [0056 — `signedBranchA_normalForm_of_branchB`](./0056-signedBranchA_normalForm_of_branchB.md)
 - [0057 — `SignedBranchARefuter`](./0057-SignedBranchARefuter.md)
+- [0058 — `branchB_false_of_signedBranchARefuter`](./0058-branchB_false_of_signedBranchARefuter.md)
 
-次号は `DkMath.FLT.Five.branchB_false_of_signedBranchARefuter` を扱います。
+次号は `DkMath.FLT.Five.SumGN5` を扱います。
