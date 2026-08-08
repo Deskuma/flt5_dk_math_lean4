@@ -82,5 +82,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0072 — `padicValNat_five_eq_one_of_dvd_not_sq`](./0072-padicValNat_five_eq_one_of_dvd_not_sq.md)
 - [0073 — `padicValNat_carrier_shape_of_mul_eq_fifth`](./0073-padicValNat_carrier_shape_of_mul_eq_fifth.md)
 - [0074 — `SignedFiveAdicSource`](./0074-SignedFiveAdicSource.md)
+- [0075 — `SignedFiveAdicPacket`](./0075-SignedFiveAdicPacket.md)
 
-次号は `DkMath.FLT.Five.SignedFiveAdicPacket` を扱います。
+次号は `DkMath.FLT.Five.nonempty_signedFiveAdicPacket_of_normalForm` を扱います。
