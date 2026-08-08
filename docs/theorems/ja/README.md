@@ -76,5 +76,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0066 — `GN5_cast_mod25_eq_five`](./0066-GN5_cast_mod25_eq_five.md)
 - [0067 — `SumGN5_cast_mod25_eq_five`](./0067-SumGN5_cast_mod25_eq_five.md)
 - [0068 — `mod_twentyFive_eq_five_of_zmod_eq_five`](./0068-mod_twentyFive_eq_five_of_zmod_eq_five.md)
+- [0069 — `eq_five_add_twentyFive_mul_of_mod_eq_five`](./0069-eq_five_add_twentyFive_mul_of_mod_eq_five.md)
 
-次号は `DkMath.FLT.Five.eq_five_add_twentyFive_mul_of_mod_eq_five` を扱います。
+次号は `DkMath.FLT.Five.five_dvd_of_eq_five_add_twentyFive_mul` を扱います。
