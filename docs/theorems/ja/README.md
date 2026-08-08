@@ -72,5 +72,6 @@ Lean 4 による指数5の場合のフェルマーの最終定理の形式化を
 - [0062 — `five_not_dvd_left_of_coprime_of_dvd_add`](./0062-five_not_dvd_left_of_coprime_of_dvd_add.md)
 - [0063 — `five_not_dvd_right_of_coprime_of_dvd_add`](./0063-five_not_dvd_right_of_coprime_of_dvd_add.md)
 - [0064 — `fourth_power_mod_five_eq_one`](./0064-fourth_power_mod_five_eq_one.md)
+- [0065 — `fourth_power_zmod25_decomposition`](./0065-fourth_power_zmod25_decomposition.md)
 
-次号は `DkMath.FLT.Five.fourth_power_zmod25_decomposition` を扱います。
+次号は `DkMath.FLT.Five.GN5_cast_mod25_eq_five` を扱います。
