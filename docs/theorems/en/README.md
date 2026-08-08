@@ -35,7 +35,7 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0025 — `coprime_gap_GN5_of_coprime_of_five_not_dvd`](./0025-coprime_gap_GN5_of_coprime_of_five_not_dvd.md)
 - [0026 — `branchB_coprime_gap_GN5`](./0026-branchB_coprime_gap_GN5.md)
 - [0027 — `fifth_power_factor_split`](./0027-fifth_power_factor_split.md)
-- [0028 — `branchB_fifth_power_factor_split`](./0028-branchB_fifth_power_factor_split.md)
+- [0028 — `branchB_fifth_power_factor_split`](./0028-branchB-fifth_power-factor-split.md)
 - [0029 — `branchB_false_of_GN5_not_fifth_power`](./0029-branchB_false_of_GN5_not_fifth_power.md)
 - [0030 — `coprime_GN5_y_of_coprime`](./0030-coprime_GN5_y_of_coprime.md)
 - [0031 — `BranchBFifthPowerNormalForm`](./0031-BranchBFifthPowerNormalForm.md)
@@ -77,5 +77,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0067 — `SumGN5_cast_mod25_eq_five`](./0067-SumGN5_cast_mod25_eq_five.md)
 - [0068 — `mod_twentyFive_eq_five_of_zmod_eq_five`](./0068-mod_twentyFive_eq_five_of_zmod_eq_five.md)
 - [0069 — `eq_five_add_twentyFive_mul_of_mod_eq_five`](./0069-eq_five_add_twentyFive_mul_of_mod_eq_five.md)
+- [0070 — `five_dvd_of_eq_five_add_twentyFive_mul`](./0070-five_dvd_of_eq_five_add_twentyFive_mul.md)
 
-The next article will cover `DkMath.FLT.Five.five_dvd_of_eq_five_add_twentyFive_mul`.
+The next article will cover `DkMath.FLT.Five.not_twentyFive_dvd_of_mod_eq_five`.
