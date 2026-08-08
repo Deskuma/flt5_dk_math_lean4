@@ -83,5 +83,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0066 | `GN5_cast_mod25_eq_five` | [日本語](./ja/0066-GN5_cast_mod25_eq_five.md) | [English](./en/0066-GN5_cast_mod25_eq_five.md) |
 | 0067 | `SumGN5_cast_mod25_eq_five` | [日本語](./ja/0067-SumGN5_cast_mod25_eq_five.md) | [English](./en/0067-SumGN5_cast_mod25_eq_five.md) |
 | 0068 | `mod_twentyFive_eq_five_of_zmod_eq_five` | [日本語](./ja/0068-mod_twentyFive_eq_five_of_zmod_eq_five.md) | [English](./en/0068-mod_twentyFive_eq_five_of_zmod_eq_five.md) |
+| 0069 | `eq_five_add_twentyFive_mul_of_mod_eq_five` | [日本語](./ja/0069-eq_five_add_twentyFive_mul_of_mod_eq_five.md) | [English](./en/0069-eq_five_add_twentyFive_mul_of_mod_eq_five.md) |
 
-Next in dependency order: `DkMath.FLT.Five.eq_five_add_twentyFive_mul_of_mod_eq_five`.
+Next in dependency order: `DkMath.FLT.Five.five_dvd_of_eq_five_add_twentyFive_mul`.
