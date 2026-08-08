@@ -90,5 +90,7 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0073 | `padicValNat_carrier_shape_of_mul_eq_fifth` | [日本語](./ja/0073-padicValNat_carrier_shape_of_mul_eq_fifth.md) | [English](./en/0073-padicValNat_carrier_shape_of_mul_eq_fifth.md) |
 | 0074 | `SignedFiveAdicSource` | [日本語](./ja/0074-SignedFiveAdicSource.md) | [English](./en/0074-SignedFiveAdicSource.md) |
 | 0075 | `SignedFiveAdicPacket` | [日本語](./ja/0075-SignedFiveAdicPacket.md) | [English](./en/0075-SignedFiveAdicPacket.md) |
+| 0076 | `nonempty_signedFiveAdicPacket_of_normalForm` | [日本語](./ja/0076-nonempty_signedFiveAdicPacket_of_normalForm.md) | [English](./en/0076-nonempty_signedFiveAdicPacket_of_normalForm.md) |
+| 0077 | `signedFiveAdicPacket_of_normalForm` | [日本語](./ja/0077-signedFiveAdicPacket_of_normalForm.md) | [English](./en/0077-signedFiveAdicPacket_of_normalForm.md) |
 
-Next in dependency order: `DkMath.FLT.Five.nonempty_signedFiveAdicPacket_of_normalForm`.
+Next in dependency order: `DkMath.FLT.Five.SignedFiveAdicCore`.
