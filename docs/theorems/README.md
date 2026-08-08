@@ -85,5 +85,6 @@ The Japanese edition is canonical. The English edition preserves the same articl
 | 0068 | `mod_twentyFive_eq_five_of_zmod_eq_five` | [日本語](./ja/0068-mod_twentyFive_eq_five_of_zmod_eq_five.md) | [English](./en/0068-mod_twentyFive_eq_five_of_zmod_eq_five.md) |
 | 0069 | `eq_five_add_twentyFive_mul_of_mod_eq_five` | [日本語](./ja/0069-eq_five_add_twentyFive_mul_of_mod_eq_five.md) | [English](./en/0069-eq_five_add_twentyFive_mul_of_mod_eq_five.md) |
 | 0070 | `five_dvd_of_eq_five_add_twentyFive_mul` | [日本語](./ja/0070-five_dvd_of_eq_five_add_twentyFive_mul.md) | [English](./en/0070-five_dvd_of_eq_five_add_twentyFive_mul.md) |
+| 0071 | `not_twentyFive_dvd_of_mod_eq_five` | [日本語](./ja/0071-not_twentyFive_dvd_of_mod_eq_five.md) | [English](./en/0071-not_twentyFive_dvd_of_mod_eq_five.md) |
 
-Next in dependency order: `DkMath.FLT.Five.not_twentyFive_dvd_of_mod_eq_five`.
+Next in dependency order: `DkMath.FLT.Five.padicValNat_five_eq_one_of_dvd_not_sq`.
