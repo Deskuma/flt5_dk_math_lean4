@@ -81,5 +81,6 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0071 — `not_twentyFive_dvd_of_mod_eq_five`](./0071-not_twentyFive_dvd_of_mod_eq_five.md)
 - [0072 — `padicValNat_five_eq_one_of_dvd_not_sq`](./0072-padicValNat_five_eq_one_of_dvd_not_sq.md)
 - [0073 — `padicValNat_carrier_shape_of_mul_eq_fifth`](./0073-padicValNat_carrier_shape_of_mul_eq_fifth.md)
+- [0074 — `SignedFiveAdicSource`](./0074-SignedFiveAdicSource.md)
 
-The next article will cover `DkMath.FLT.Five.SignedFiveAdicSource`.
+The next article will cover `DkMath.FLT.Five.SignedFiveAdicPacket`.
