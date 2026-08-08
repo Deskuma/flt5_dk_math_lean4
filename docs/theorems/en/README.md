@@ -74,5 +74,7 @@ This is a declaration-by-declaration reading guide to the Lean 4 formalization o
 - [0064 — `fourth_power_mod_five_eq_one`](./0064-fourth_power_mod_five_eq_one.md)
 - [0065 — `fourth_power_zmod25_decomposition`](./0065-fourth_power_zmod25_decomposition.md)
 - [0066 — `GN5_cast_mod25_eq_five`](./0066-GN5_cast_mod25_eq_five.md)
+- [0067 — `SumGN5_cast_mod25_eq_five`](./0067-SumGN5_cast_mod25_eq_five.md)
+- [0068 — `mod_twentyFive_eq_five_of_zmod_eq_five`](./0068-mod_twentyFive_eq_five_of_zmod_eq_five.md)
 
-The next article will cover `DkMath.FLT.Five.SumGN5_cast_mod25_eq_five`.
+The next article will cover `DkMath.FLT.Five.eq_five_add_twentyFive_mul_of_mod_eq_five`.
