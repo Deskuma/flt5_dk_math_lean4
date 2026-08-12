@@ -7,35 +7,90 @@ A theorem-by-theorem reading guide to the Lean 4 formalization of Fermat's Last 
 
 ## Purpose
 
-This museum follows the formal proof from its smallest foundational declarations to the final theorem. Each article isolates one definition, structure, lemma, or theorem and records both its mathematical role and its Lean-specific implementation.
+This museum follows the formal proof from its smallest foundational declarations to the final theorem. Each article isolates one definition, structure, lemma, or theorem and records both its mathematical role and Lean-specific implementation.
 
-The collection serves as a guided reading path, dependency-aware catalogue, optimization and import-audit notebook, and source for small Comparator challenges.
-
-## Editorial policy
-
-The Japanese edition is canonical. The English edition is a corresponding translation using the same article number and declaration name. Articles use four-digit numbers in explanatory dependency order.
-
-## Standard article contents
-
-Each article records the Lean declaration, mathematical statement, role in the proof, direct dependencies, proof flow, Lean-specific processing, redundancy, optimization candidates, Mathlib imports, Comparator suitability, and the next declaration. Repository facts are distinguished from interpretation and unverified proposals.
-
-## Source of truth
-
-The Lean source is primary. Existing Japanese and English explanatory PDFs provide narrative context but do not override kernel-checked declarations.
+The Japanese edition is canonical. The English edition preserves the same article number, declaration name, formulas, and section structure. Four-digit article numbers follow explanatory dependency order. The Lean source is primary; existing Japanese and English PDFs provide narrative context but do not override kernel-checked declarations.
 
 ## Catalogue
 
 | No. | Declaration | 日本語 | English |
 |---:|---|---|---|
-| 0001 | `DkMath.FLT.Five.Fermat5Equation` | [日本語正本](./ja/0001-Fermat5Equation.md) | [English](./en/0001-Fermat5Equation.md) |
-| 0002 | `DkMath.FLT.Five.CounterexamplePack` | [日本語正本](./ja/0002-CounterexamplePack.md) | [English](./en/0002-CounterexamplePack.md) |
-| 0003 | `DkMath.FLT.Five.fifth_sub_eq_of_add_eq` | [日本語正本](./ja/0003-fifth_sub_eq_of_add_eq.md) | [English](./en/0003-fifth_sub_eq_of_add_eq.md) |
-| 0004 | `DkMath.FLT.Five.right_lt_of_fermat5Equation` | [日本語正本](./ja/0004-right_lt_of_fermat5Equation.md) | [English](./en/0004-right_lt_of_fermat5Equation.md) |
-| 0005 | `DkMath.FLT.Five.gap_pos_of_fermat5Equation` | [日本語正本](./ja/0005-gap_pos_of_fermat5Equation.md) | [English](./en/0005-gap_pos_of_fermat5Equation.md) |
-| 0006 | `DkMath.FLT.Five.GN5` | [日本語正本](./ja/0006-GN5.md) | [English](./en/0006-GN5.md) |
-| 0007 | `DkMath.FLT.Five.GN5_eq_homogeneous_cyclotomic` | [日本語正本](./ja/0007-GN5_eq_homogeneous_cyclotomic.md) | [English](./en/0007-GN5_eq_homogeneous_cyclotomic.md) |
-| 0008 | `DkMath.FLT.Five.GN5_eq_gap_mul_add_five_mul_y_pow_four` | [日本語正本](./ja/0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) | [English](./en/0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) |
-| 0009 | `DkMath.FLT.Five.GN5_eq_g_pow_four_add_five_mul` | [日本語正本](./ja/0009-GN5_eq_g_pow_four_add_five_mul.md) | [English](./en/0009-GN5_eq_g_pow_four_add_five_mul.md) |
-| 0010 | `DkMath.FLT.Five.add_pow_five_eq_add_mul_GN5` | [日本語正本](./ja/0010-add_pow_five_eq_add_mul_GN5.md) | [English](./en/0010-add_pow_five_eq_add_mul_GN5.md) |
+| 0001 | `Fermat5Equation` | [日本語](./ja/0001-Fermat5Equation.md) | [English](./en/0001-Fermat5Equation.md) |
+| 0002 | `CounterexamplePack` | [日本語](./ja/0002-CounterexamplePack.md) | [English](./en/0002-CounterexamplePack.md) |
+| 0003 | `fifth_sub_eq_of_add_eq` | [日本語](./ja/0003-fifth_sub_eq_of_add_eq.md) | [English](./en/0003-fifth_sub_eq_of_add_eq.md) |
+| 0004 | `right_lt_of_fermat5Equation` | [日本語](./ja/0004-right_lt_of_fermat5Equation.md) | [English](./en/0004-right_lt_of_fermat5Equation.md) |
+| 0005 | `gap_pos_of_fermat5Equation` | [日本語](./ja/0005-gap_pos_of_fermat5Equation.md) | [English](./en/0005-gap_pos_of_fermat5Equation.md) |
+| 0006 | `GN5` | [日本語](./ja/0006-GN5.md) | [English](./en/0006-GN5.md) |
+| 0007 | `GN5_eq_homogeneous_cyclotomic` | [日本語](./ja/0007-GN5_eq_homogeneous_cyclotomic.md) | [English](./en/0007-GN5_eq_homogeneous_cyclotomic.md) |
+| 0008 | `GN5_eq_gap_mul_add_five_mul_y_pow_four` | [日本語](./ja/0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) | [English](./en/0008-GN5_eq_gap_mul_add_five_mul_y_pow_four.md) |
+| 0009 | `GN5_eq_g_pow_four_add_five_mul` | [日本語](./ja/0009-GN5_eq_g_pow_four_add_five_mul.md) | [English](./en/0009-GN5_eq_g_pow_four_add_five_mul.md) |
+| 0010 | `add_pow_five_eq_add_mul_GN5` | [日本語](./ja/0010-add_pow_five_eq_add_mul_GN5.md) | [English](./en/0010-add_pow_five_eq_add_mul_GN5.md) |
+| 0011 | `add_pow_five_sub_eq_mul_GN5` | [日本語](./ja/0011-add_pow_five_sub_eq_mul_GN5.md) | [English](./en/0011-add_pow_five_sub_eq_mul_GN5.md) |
+| 0012 | `pow_five_sub_pow_five_eq_gap_mul_GN5` | [日本語](./ja/0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) | [English](./en/0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) |
+| 0013 | `GN5_one_one` | [日本語](./ja/0013-GN5_one_one.md) | [English](./en/0013-GN5_one_one.md) |
+| 0014 | `GN5_two_one` | [日本語](./ja/0014-GN5_two_one.md) | [English](./en/0014-GN5_two_one.md) |
+| 0015 | `CleanGN5Channel` | [日本語](./ja/0015-CleanGN5Channel.md) | [English](./en/0015-CleanGN5Channel.md) |
+| 0016 | `CleanGN5Channel.dvd_body` | [日本語](./ja/0016-CleanGN5Channel.dvd_body.md) | [English](./en/0016-CleanGN5Channel.dvd_body.md) |
+| 0017 | `CleanGN5Channel.not_sq_dvd_body` | [日本語](./ja/0017-CleanGN5Channel.not_sq_dvd_body.md) | [English](./en/0017-CleanGN5Channel.not_sq_dvd_body.md) |
+| 0018 | `not_fifth_power_GN5_of_clean` | [日本語](./ja/0018-not_fifth_power_GN5_of_clean.md) | [English](./en/0018-not_fifth_power_GN5_of_clean.md) |
+| 0019 | `not_fifth_power_body_of_clean` | [日本語](./ja/0019-not_fifth_power_body_of_clean.md) | [English](./en/0019-not_fifth_power_body_of_clean.md) |
+| 0020 | `cleanGN5Channel_one_one_31` | [日本語](./ja/0020-cleanGN5Channel_one_one_31.md) | [English](./en/0020-cleanGN5Channel_one_one_31.md) |
+| 0021 | `GN5_one_one_not_fifth_power` | [日本語](./ja/0021-GN5_one_one_not_fifth_power.md) | [English](./en/0021-GN5_one_one_not_fifth_power.md) |
+| 0022 | `coprime_y_z_of_counterexamplePack` | [日本語](./ja/0022-coprime_y_z_of_counterexamplePack.md) | [English](./en/0022-coprime_y_z_of_counterexamplePack.md) |
+| 0023 | `coprime_gap_y_of_counterexamplePack` | [日本語](./ja/0023-coprime_gap_y_of_counterexamplePack.md) | [English](./en/0023-coprime_gap_y_of_counterexamplePack.md) |
+| 0024 | `dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5` | [日本語](./ja/0024-dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5.md) | [English](./en/0024-dvd_five_mul_y_pow_four_of_dvd_gap_of_dvd_GN5.md) |
+| 0025 | `coprime_gap_GN5_of_coprime_of_five_not_dvd` | [日本語](./ja/0025-coprime_gap_GN5_of_coprime_of_five_not_dvd.md) | [English](./en/0025-coprime_gap_GN5_of_coprime_of_five_not_dvd.md) |
+| 0026 | `branchB_coprime_gap_GN5` | [日本語](./ja/0026-branchB_coprime_gap_GN5.md) | [English](./en/0026-branchB_coprime_gap_GN5.md) |
+| 0027 | `fifth_power_factor_split` | [日本語](./ja/0027-fifth_power_factor_split.md) | [English](./en/0027-fifth_power_factor_split.md) |
+| 0028 | `branchB_fifth_power_factor_split` | [日本語](./ja/0028-branchB_fifth_power_factor_split.md) | [English](./en/0028-branchB_fifth_power_factor_split.md) |
+| 0029 | `branchB_false_of_GN5_not_fifth_power` | [日本語](./ja/0029-branchB_false_of_GN5_not_fifth_power.md) | [English](./en/0029-branchB_false_of_GN5_not_fifth_power.md) |
+| 0030 | `coprime_GN5_y_of_coprime` | [日本語](./ja/0030-coprime_GN5_y_of_coprime.md) | [English](./en/0030-coprime_GN5_y_of_coprime.md) |
+| 0031 | `BranchBFifthPowerNormalForm` | [日本語](./ja/0031-BranchBFifthPowerNormalForm.md) | [English](./en/0031-BranchBFifthPowerNormalForm.md) |
+| 0032 | `exists_branchB_fifthPowerNormalForm` | [日本語](./ja/0032-exists_branchB_fifthPowerNormalForm.md) | [English](./en/0032-exists_branchB_fifthPowerNormalForm.md) |
+| 0033 | `BranchBFifthPowerCore` | [日本語](./ja/0033-BranchBFifthPowerCore.md) | [English](./en/0033-BranchBFifthPowerCore.md) |
+| 0034 | `branchB_false_of_fifthPowerCore` | [日本語](./ja/0034-branchB_false_of_fifthPowerCore.md) | [English](./en/0034-branchB_false_of_fifthPowerCore.md) |
+| 0035 | `Body5` | [日本語](./ja/0035-Body5.md) | [English](./en/0035-Body5.md) |
+| 0036 | `body5_eq_add_pow_sub` | [日本語](./ja/0036-body5_eq_add_pow_sub.md) | [English](./en/0036-body5_eq_add_pow_sub.md) |
+| 0037 | `body5_eq_fifth_power_of_fermat` | [日本語](./ja/0037-body5_eq_fifth_power_of_fermat.md) | [English](./en/0037-body5_eq_fifth_power_of_fermat.md) |
+| 0038 | `counterexample_false_of_clean_GN5Channel_by_dvd` | [日本語](./ja/0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) | [English](./en/0038-counterexample_false_of_clean_GN5Channel_by_dvd.md) |
+| 0039 | `BranchBCleanGN5ChannelProvider` | [日本語](./ja/0039-BranchBCleanGN5ChannelProvider.md) | [English](./en/0039-BranchBCleanGN5ChannelProvider.md) |
+| 0040 | `BranchBNoLiftEscape` | [日本語](./ja/0040-BranchBNoLiftEscape.md) | [English](./en/0040-BranchBNoLiftEscape.md) |
+| 0041 | `branchBCleanGN5ChannelProvider_of_noLiftEscape` | [日本語](./ja/0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md) | [English](./en/0041-branchBCleanGN5ChannelProvider_of_noLiftEscape.md) |
+| 0042 | `branchB_false_of_clean_provider_by_dvd` | [日本語](./ja/0042-branchB_false_of_clean_provider_by_dvd.md) | [English](./en/0042-branchB_false_of_clean_provider_by_dvd.md) |
+| 0043 | `branchB_false_of_noLiftEscape_by_dvd` | [日本語](./ja/0043-branchB_false_of_noLiftEscape_by_dvd.md) | [English](./en/0043-branchB_false_of_noLiftEscape_by_dvd.md) |
+| 0044 | `BranchACondition` | [日本語](./ja/0044-BranchACondition.md) | [English](./en/0044-BranchACondition.md) |
+| 0045 | `BranchARefuter` | [日本語](./ja/0045-BranchARefuter.md) | [English](./en/0045-BranchARefuter.md) |
+| 0046 | `CounterexamplePack.swap` | [日本語](./ja/0046-CounterexamplePack.swap.md) | [English](./en/0046-CounterexamplePack.swap.md) |
+| 0047 | `five_not_dvd_GN5_of_five_not_dvd_gap` | [日本語](./ja/0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) | [English](./en/0047-five_not_dvd_GN5_of_five_not_dvd_gap.md) |
+| 0048 | `five_not_dvd_x_of_branchB` | [日本語](./ja/0048-five_not_dvd_x_of_branchB.md) | [English](./en/0048-five_not_dvd_x_of_branchB.md) |
+| 0049 | `pow_five_mod_five` | [日本語](./ja/0049-pow_five_mod_five.md) | [English](./en/0049-pow_five_mod_five.md) |
+| 0050 | `five_dvd_z_sub_x_of_fermat5_of_five_dvd_y` | [日本語](./ja/0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md) | [English](./en/0050-five_dvd_z_sub_x_of_fermat5_of_five_dvd_y.md) |
+| 0051 | `five_dvd_x_add_y_of_fermat5_of_five_dvd_z` | [日本語](./ja/0051-five_dvd_x_add_y_of_fermat5_of_five_dvd_z.md) | [English](./en/0051-five_dvd_x_add_y_of_fermat5_of_five_dvd_z.md) |
+| 0052 | `SignedBranchAOrientation` | [日本語](./ja/0052-SignedBranchAOrientation.md) | [English](./en/0052-SignedBranchAOrientation.md) |
+| 0053 | `SignedBranchANormalForm` | [日本語](./ja/0053-SignedBranchANormalForm.md) | [English](./en/0053-SignedBranchANormalForm.md) |
+| 0054 | `mod25_fifth_residue_classification` | [日本語](./ja/0054-mod25_fifth_residue_classification.md) | [English](./en/0054-mod25_fifth_residue_classification.md) |
+| 0055 | `five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x` | [日本語](./ja/0055-five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x.md) | [English](./en/0055-five_dvd_y_or_z_of_fermat5_of_five_not_dvd_x.md) |
+| 0056 | `signedBranchA_normalForm_of_branchB` | [日本語](./ja/0056-signedBranchA_normalForm_of_branchB.md) | [English](./en/0056-signedBranchA_normalForm_of_branchB.md) |
+| 0057 | `SignedBranchARefuter` | [日本語](./ja/0057-SignedBranchARefuter.md) | [English](./en/0057-SignedBranchARefuter.md) |
+| 0058 | `branchB_false_of_signedBranchARefuter` | [日本語](./ja/0058-branchB_false_of_signedBranchARefuter.md) | [English](./en/0058-branchB_false_of_signedBranchARefuter.md) |
+| 0059 | `SumGN5` | [日本語](./ja/0059-SumGN5.md) | [English](./en/0059-SumGN5.md) |
+| 0060 | `add_mul_sumGN5_eq_add_pow_five` | [日本語](./ja/0060-add_mul_sumGN5_eq_add_pow_five.md) | [English](./en/0060-add_mul_sumGN5_eq_add_pow_five.md) |
+| 0061 | `sumGN5_pos` | [日本語](./ja/0061-sumGN5_pos.md) | [English](./en/0061-sumGN5_pos.md) |
+| 0062 | `five_not_dvd_left_of_coprime_of_dvd_add` | [日本語](./ja/0062-five_not_dvd_left_of_coprime_of_dvd_add.md) | [English](./en/0062-five_not_dvd_left_of_coprime_of_dvd_add.md) |
+| 0063 | `five_not_dvd_right_of_coprime_of_dvd_add` | [日本語](./ja/0063-five_not_dvd_right_of_coprime_of_dvd_add.md) | [English](./en/0063-five_not_dvd_right_of_coprime_of_dvd_add.md) |
+| 0064 | `fourth_power_mod_five_eq_one` | [日本語](./ja/0064-fourth_power_mod_five_eq_one.md) | [English](./en/0064-fourth_power_mod_five_eq_one.md) |
+| 0065 | `fourth_power_zmod25_decomposition` | [日本語](./ja/0065-fourth_power_zmod25_decomposition.md) | [English](./en/0065-fourth_power_zmod25_decomposition.md) |
+| 0066 | `GN5_cast_mod25_eq_five` | [日本語](./ja/0066-GN5_cast_mod25_eq_five.md) | [English](./en/0066-GN5_cast_mod25_eq_five.md) |
+| 0067 | `SumGN5_cast_mod25_eq_five` | [日本語](./ja/0067-SumGN5_cast_mod25_eq_five.md) | [English](./en/0067-SumGN5_cast_mod25_eq_five.md) |
+| 0068 | `mod_twentyFive_eq_five_of_zmod_eq_five` | [日本語](./ja/0068-mod_twentyFive_eq_five_of_zmod_eq_five.md) | [English](./en/0068-mod_twentyFive_eq_five_of_zmod_eq_five.md) |
+| 0069 | `eq_five_add_twentyFive_mul_of_mod_eq_five` | [日本語](./ja/0069-eq_five_add_twentyFive_mul_of_mod_eq_five.md) | [English](./en/0069-eq_five_add_twentyFive_mul_of_mod_eq_five.md) |
+| 0070 | `five_dvd_of_eq_five_add_twentyFive_mul` | [日本語](./ja/0070-five_dvd_of_eq_five_add_twentyFive_mul.md) | [English](./en/0070-five_dvd_of_eq_five_add_twentyFive_mul.md) |
+| 0071 | `not_twentyFive_dvd_of_mod_eq_five` | [日本語](./ja/0071-not_twentyFive_dvd_of_mod_eq_five.md) | [English](./en/0071-not_twentyFive_dvd_of_mod_eq_five.md) |
+| 0072 | `padicValNat_five_eq_one_of_dvd_not_sq` | [日本語](./ja/0072-padicValNat_five_eq_one_of_dvd_not_sq.md) | [English](./en/0072-padicValNat_five_eq_one_of_dvd_not_sq.md) |
+| 0073 | `padicValNat_carrier_shape_of_mul_eq_fifth` | [日本語](./ja/0073-padicValNat_carrier_shape_of_mul_eq_fifth.md) | [English](./en/0073-padicValNat_carrier_shape_of_mul_eq_fifth.md) |
+| 0074 | `SignedFiveAdicSource` | [日本語](./ja/0074-SignedFiveAdicSource.md) | [English](./en/0074-SignedFiveAdicSource.md) |
+| 0075 | `SignedFiveAdicPacket` | [日本語](./ja/0075-SignedFiveAdicPacket.md) | [English](./en/0075-SignedFiveAdicPacket.md) |
+| 0076 | `nonempty_signedFiveAdicPacket_of_normalForm` | [日本語](./ja/0076-nonempty_signedFiveAdicPacket_of_normalForm.md) | [English](./en/0076-nonempty_signedFiveAdicPacket_of_normalForm.md) |
+| 0077 | `signedFiveAdicPacket_of_normalForm` | [日本語](./ja/0077-signedFiveAdicPacket_of_normalForm.md) | [English](./en/0077-signedFiveAdicPacket_of_normalForm.md) |
 
-Next in dependency order: `DkMath.FLT.Five.add_pow_five_sub_eq_mul_GN5`.
+Next in dependency order: `DkMath.FLT.Five.SignedFiveAdicCore`.
