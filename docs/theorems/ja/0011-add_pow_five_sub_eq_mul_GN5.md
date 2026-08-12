@@ -106,3 +106,7 @@ $$
 ## 根拠と推論の区別
 
 定理の型、証明、直接依存、宣言順、次の定理は `Flt5DkMath/FLT5StandAlone.lean` 内の生成元 `DkMath/FLT/Five/GN5.lean` 部分から確認した事実です。最小 import、標準減算補題による代替証明、Comparator 評価は未検証の提案です。既存 PDF は証明全体の文脈資料であり、本記事の形式的根拠は Lean ソースです。Lean ビルドは行っていません。
+
+---
+
+[prev](./0010-add_pow_five_eq_add_mul_GN5.md) < 0011 > [next](./0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md)

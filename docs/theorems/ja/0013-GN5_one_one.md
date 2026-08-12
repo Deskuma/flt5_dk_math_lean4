@@ -95,3 +95,7 @@ $$
 ## 根拠と推論の区別
 
 型、証明、宣言順、値 $31$、および後続宣言は `Flt5DkMath/FLT5StandAlone.lean` に収録された `DkMath/FLT/Five/GN5.lean` と `CleanChannel.lean` の生成ソースで確認した事実です。証明全体での位置づけ、重複評価の整理、import 最小化、Comparator 案は解説上の分析または未検証の提案を含みます。既存 PDF の物語的説明より Lean ソースを形式的根拠として優先し、本号では PDF に固有の追加主張を行っていません。Lean ビルドは行っていません。
+
+---
+
+[prev](./0012-pow_five_sub_pow_five_eq_gap_mul_GN5.md) < 0013 > [next](./0014-GN5_two_one.md)

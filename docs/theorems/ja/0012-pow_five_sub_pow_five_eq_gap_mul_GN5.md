@@ -91,3 +91,7 @@ $$
 ## 根拠と推論の区別
 
 型、証明、宣言順、直接依存は `Flt5DkMath/FLT5StandAlone.lean` の `DkMath/FLT/Five/GN5.lean` 部分で確認した事実です。役割分析、最小 import、Comparator 評価は未検証の提案を含みます。形式的根拠は Lean ソースです。Lean ビルドは行っていません。
+
+---
+
+[prev](./0011-add_pow_five_sub_eq_mul_GN5.md) < 0012 > [next](./0013-GN5_one_one.md)

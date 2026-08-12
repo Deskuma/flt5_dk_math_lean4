@@ -175,3 +175,7 @@ $$
 ## 根拠と推論の区別
 
 定理の型、証明、宣言順、直接利用する補題は `Flt5DkMath/FLT5StandAlone.lean` に収録された `DkMath/FLT/Five/CleanChannel.lean` の生成ソースで確認しました。証明全体での役割、重複評価、一般化、import 最小化、Comparator 案には解説上の分析または未検証の提案が含まれます。既存 PDF は補助的な文脈資料であり、Lean ソースを優先しました。Lean ビルドは行っていません。
+
+---
+
+[prev](./0018-not_fifth_power_GN5_of_clean.md) < 0019 > [next](./0020-cleanGN5Channel_one_one_31.md)

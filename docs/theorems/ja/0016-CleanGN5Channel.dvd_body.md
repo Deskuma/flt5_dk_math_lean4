@@ -106,3 +106,7 @@ $$
 ## 根拠と推論の区別
 
 定理の型、証明、宣言順、後続での `h.dvd_body` 利用は `Flt5DkMath/FLT5StandAlone.lean` に収録された `DkMath/FLT/Five/CleanChannel.lean` の生成ソースで確認しました。役割評価、API 保持の判断、import 最小化、Comparator 案は解説上の分析または未検証の提案を含みます。Lean ビルドは行っていません。
+
+---
+
+[prev](./0015-CleanGN5Channel.md) < 0016 > [next](./0017-CleanGN5Channel.not_sq_dvd_body.md)

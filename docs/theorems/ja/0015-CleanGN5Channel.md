@@ -124,3 +124,7 @@ $$
 ## 根拠と推論の区別
 
 構造体の型、四フィールド、宣言順、モジュールコメント、直後の利用定理は `Flt5DkMath/FLT5StandAlone.lean` に収録された `DkMath/FLT/Five/CleanChannel.lean` の生成ソースで確認した事実です。valuation による読み替え、設計評価、import 最小化、最適化候補、Comparator 案は解説上の分析または未検証の提案を含みます。既存 PDF は補助的な物語資料として扱い、Lean 宣言に反する主張は採用していません。Lean ビルドは行っていません。
+
+---
+
+[prev](./0014-GN5_two_one.md) < 0015 > [next](./0016-CleanGN5Channel.dvd_body.md)

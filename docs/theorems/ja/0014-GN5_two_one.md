@@ -85,3 +85,7 @@ standalone 生成物は `import Mathlib` を使用しています。本定理に
 ## 根拠と推論の区別
 
 型、証明、宣言順、値 $121$、および次の主要宣言は `Flt5DkMath/FLT5StandAlone.lean` に収録された `DkMath/FLT/Five/GN5.lean` と `CleanChannel.lean` の生成ソースで確認した事実です。$121=11^2$ という算術的観察、証明全体での位置づけ、import 最小化、Comparator 案は解説上の分析または未検証の提案を含みます。Lean ビルドは行っていません。
+
+---
+
+[prev](./0013-GN5_one_one.md) < 0014 > [next](./0015-CleanGN5Channel.md)
