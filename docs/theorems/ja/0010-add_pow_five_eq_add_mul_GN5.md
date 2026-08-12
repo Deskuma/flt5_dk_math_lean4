@@ -102,3 +102,7 @@ $$
 ## 根拠と推論の区別
 
 定理の型、証明、宣言順、`GN5` への直接依存、次の定理は Lean ソースから確認した事実です。`[simp]` 属性、代替証明、最小 import、Comparator の評価は未検証の提案です。Lean ビルドは行っていません。
+
+---
+
+[prev](./0009-GN5_eq_g_pow_four_add_five_mul.md) < 0010 > [next](./0011-add_pow_five_sub_eq_mul_GN5.md)
