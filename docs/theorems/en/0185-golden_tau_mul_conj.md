@@ -1,4 +1,4 @@
-## 0185 — `golden_tau_mul_conj`
+# 0185 — `golden_tau_mul_conj`
 
 ## Lean type
 
