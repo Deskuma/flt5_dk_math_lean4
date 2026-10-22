@@ -275,7 +275,7 @@ Nat.Coprime (a ^ 5) (b ^ 5) → Nat.Coprime a b
 
 の専用 wrapper があれば、二段の `.mp` を読みやすくできる。
 
-3. `a_pos` は `hgap` と `gap_pos` から `Nat.pow_pos.mp` 系の既存 API で短縮できる可能性がある。ただし Mathlib v4.33.0 における最適な補題名は未検証である。
+3. `a_pos` は `hgap` と `gap_pos` から `Nat.pow_pos.mp` 系の既存 API で短縮できる可能性がある。ただし Mathlib v4.35.0 における最適な補題名は未検証である。
 
 4. `b_pos` は `hx=x*a` 型の零積反証ではなく、`GN5(a^5,y)=b^5` と `GN5` の正値性から得る設計も考えられるが、現在の $x=ab$ 経路の方が依存が少ない。
 

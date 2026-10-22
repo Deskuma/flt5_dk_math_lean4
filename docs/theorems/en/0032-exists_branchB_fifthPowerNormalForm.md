@@ -263,7 +263,7 @@ Nat.Coprime (a ^ 5) (b ^ 5) → Nat.Coprime a b
 
 so the two nested `.mp` applications become easier to read.
 
-3. Positivity of $a$ may admit a shorter proof through an existing `Nat.pow_pos` API. The best lemma name for Mathlib v4.33.0 has not been verified here.
+3. Positivity of $a$ may admit a shorter proof through an existing `Nat.pow_pos` API. The best lemma name for Mathlib v4.35.0 has not been verified here.
 
 4. Positivity of $b$ could alternatively be derived from `GN5(a^5,y)=b^5` and positivity of `GN5`, but the current route through $x=ab$ appears to require fewer dependencies.
 

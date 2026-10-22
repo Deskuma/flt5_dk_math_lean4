@@ -136,7 +136,7 @@ The use of `omega` could also be replaced by a more manual integer-cancellation 
 
 The standalone artifact uses `import Mathlib`. Directly, this theorem uses `Function.Injective`, `congrArg`, the coordinate API for `Zsqrtd`, the `omega` tactic, and the already-defined `GoldenInt`, `goldenDoubleEmbedding`, and `GoldenInt.ext`.
 
-A modular source could therefore potentially replace the broad import with the upstream `GoldenOrder` dependencies plus the Mathlib module providing `Zsqrtd` and the import providing `omega`. Because no Lean build is performed in this museum pass, the exact minimal import set for the Mathlib v4.33.0 line is not verified. Any concrete import reduction should therefore be treated as an import-audit candidate and checked by building the isolated module.
+A modular source could therefore potentially replace the broad import with the upstream `GoldenOrder` dependencies plus the Mathlib module providing `Zsqrtd` and the import providing `omega`. Because no Lean build is performed in this museum pass, the exact minimal import set for the Mathlib v4.35.0 line is not verified. Any concrete import reduction should therefore be treated as an import-audit candidate and checked by building the isolated module.
 
 ## Suitability as a Comparator challenge
 

@@ -6,12 +6,12 @@
 theorem add_mul_sumGN5_eq_add_pow_five (u v : ℕ) :
     (u + v) * SumGN5 u v = u ^ 5 + v ^ 5 := by
   by_cases h : v ≤ u
-  · rw [SumGN5, if_pos h]
+  · rw [SumGN5, ite_eq_left h]
     obtain ⟨d, hd⟩ := Nat.exists_eq_add_of_le h
     subst u
     simp only [Nat.add_sub_cancel_left]
     ring
-  · rw [SumGN5, if_neg h]
+  · rw [SumGN5, ite_eq_right h]
     have huv : u ≤ v := Nat.le_of_not_ge h
     obtain ⟨d, hd⟩ := Nat.exists_eq_add_of_le huv
     subst v

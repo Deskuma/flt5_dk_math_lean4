@@ -136,7 +136,7 @@ def goldenDoubleEmbedding (x : GoldenInt) : Zsqrtd 5 :=
 
 standalone artifact は `import Mathlib` を使用している。本 theorem が直接利用するのは `Function.Injective`、`congrArg`、`Zsqrtd` の座標 API、`omega` tactic、および上流で定義済みの `GoldenInt` / `goldenDoubleEmbedding` / `GoldenInt.ext` である。
 
-したがって modular source では、`GoldenOrder` の上流依存に加え `Zsqrtd` を提供する Mathlib module と `omega` tactic を提供する import に絞れる可能性がある。ただし今回 Lean build は行わないため、Mathlib v4.33.0 系での厳密な最小 import 集合は未検証である。具体的な module 名の削減は build による確認を伴う import audit として行うべきである。
+したがって modular source では、`GoldenOrder` の上流依存に加え `Zsqrtd` を提供する Mathlib module と `omega` tactic を提供する import に絞れる可能性がある。ただし今回 Lean build は行わないため、Mathlib v4.35.0 系での厳密な最小 import 集合は未検証である。具体的な module 名の削減は build による確認を伴う import audit として行うべきである。
 
 ## Comparator challenge 化の可否
 

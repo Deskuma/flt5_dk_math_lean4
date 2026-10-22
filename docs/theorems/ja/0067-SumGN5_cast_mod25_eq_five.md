@@ -11,7 +11,7 @@ private theorem SumGN5_cast_mod25_eq_five
   have h5v : ¬ 5 ∣ v :=
     five_not_dvd_right_of_coprime_of_dvd_add hcop h5sum
   by_cases h : v ≤ u
-  · rw [SumGN5, if_pos h]
+  · rw [SumGN5, ite_eq_left h]
     obtain ⟨d, hd⟩ := Nat.exists_eq_add_of_le h
     subst u
     rcases h5sum with ⟨k, hk⟩
@@ -34,7 +34,7 @@ private theorem SumGN5_cast_mod25_eq_five
       show (250 : ZMod 25) = 0 by decide,
       show (625 : ZMod 25) = 0 by decide,
       mul_zero, add_zero, sub_zero]
-  · rw [SumGN5, if_neg h]
+  · rw [SumGN5, ite_eq_right h]
     have huv : u ≤ v := Nat.le_of_not_ge h
     obtain ⟨d, hd⟩ := Nat.exists_eq_add_of_le huv
     subst v

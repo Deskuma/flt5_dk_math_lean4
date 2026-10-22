@@ -6,7 +6,7 @@
 theorem padicValNat_five_eq_one_of_dvd_not_sq
     {n : ℕ} (h5 : 5 ∣ n) (h25 : ¬ 25 ∣ n) :
     padicValNat 5 n = 1 := by
-  letI : Fact (Nat.Prime 5) := ⟨by decide⟩
+  let : Fact (Nat.Prime 5) := ⟨by decide⟩
   have hnz : n ≠ 0 := by
     intro hn0
     apply h25
@@ -101,7 +101,7 @@ $$
 `padicValNat_dvd_iff_le` requires primality through typeclass inference, so the proof installs
 
 ```lean
-letI : Fact (Nat.Prime 5) := ⟨by decide⟩
+let : Fact (Nat.Prime 5) := ⟨by decide⟩
 ```
 
 locally. Mathematically this is merely the observation that 5 is prime, but Lean must satisfy the API's typeclass requirement explicitly.
@@ -129,7 +129,7 @@ After `by_contra hnot`, `omega` is used only for the natural-number order step f
 The most visible redundancy is the duplicated prime instance. The proof begins with
 
 ```lean
-letI : Fact (Nat.Prime 5) := ⟨by decide⟩
+let : Fact (Nat.Prime 5) := ⟨by decide⟩
 ```
 
 but both applications of `padicValNat_dvd_iff_le` still pass `Fact.mk (by decide)` explicitly.
