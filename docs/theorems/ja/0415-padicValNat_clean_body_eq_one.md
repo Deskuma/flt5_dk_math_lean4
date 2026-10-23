@@ -11,7 +11,7 @@ theorem padicValNat_clean_body_eq_one
     {g y q : ℕ}
     (h : CleanGN5Channel g y q) :
     padicValNat q (g * GN5 g y) = 1 := by
-  letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+  let : Fact (Nat.Prime q) := ⟨h.prime⟩
   have hBodyNe : g * GN5 g y ≠ 0 := by
     intro hzero
     apply h.not_sq_dvd_body
@@ -214,7 +214,7 @@ v = 1
 ### 1. 素数性を typeclass instance にする
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+let : Fact (Nat.Prime q) := ⟨h.prime⟩
 ```
 
 `padicValNat` 周辺の Mathlib API が要求する素数性を局所 instance として供給する。
@@ -303,7 +303,7 @@ $$
 ### 1. proposition から `Fact` instance への再包装
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+let : Fact (Nat.Prime q) := ⟨h.prime⟩
 ```
 
 は数学上の新しい仮定ではない。`h.prime` を typeclass search が利用できる形へ変えているだけである。

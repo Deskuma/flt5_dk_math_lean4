@@ -11,7 +11,7 @@ theorem padicValNat_clean_body_upper_bound
     {g y q : ℕ}
     (h : CleanGN5Channel g y q) :
     padicValNat q (g * GN5 g y) ≤ 1 := by
-  letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+  let : Fact (Nat.Prime q) := ⟨h.prime⟩
   have hBodyNe : g * GN5 g y ≠ 0 := by
     intro hzero
     apply h.not_sq_dvd_body
@@ -203,7 +203,7 @@ using natural-number arithmetic.
 ### 1. Install primality as a typeclass instance
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+let : Fact (Nat.Prime q) := ⟨h.prime⟩
 ```
 
 This supplies the `[Fact (Nat.Prime q)]` expected by the relevant `padicValNat` API.
@@ -277,7 +277,7 @@ The square divisibility is forbidden by the clean channel, so the contradiction 
 On paper one simply uses the assumption that `q` is prime. Some Mathlib valuation lemmas instead expect primality through a typeclass argument.
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+let : Fact (Nat.Prime q) := ⟨h.prime⟩
 ```
 
 only repackages the already available proof for instance search; it introduces no new mathematical assumption.
@@ -334,7 +334,7 @@ This is a useful contrast with 0413, which used `.mp` on the same bridge theorem
 As in 0413, the proof first registers
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+let : Fact (Nat.Prime q) := ⟨h.prime⟩
 ```
 
 and then explicitly passes
@@ -469,7 +469,7 @@ theorem padicValNat_clean_body_eq_one
     {g y q : ℕ}
     (h : CleanGN5Channel g y q) :
     padicValNat q (g * GN5 g y) = 1 := by
-  letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+  let : Fact (Nat.Prime q) := ⟨h.prime⟩
   have hBodyNe : g * GN5 g y ≠ 0 := by
     intro hzero
     apply h.not_sq_dvd_body

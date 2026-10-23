@@ -11,7 +11,7 @@ theorem padicValNat_clean_body_upper_bound
     {g y q : ℕ}
     (h : CleanGN5Channel g y q) :
     padicValNat q (g * GN5 g y) ≤ 1 := by
-  letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+  let : Fact (Nat.Prime q) := ⟨h.prime⟩
   have hBodyNe : g * GN5 g y ≠ 0 := by
     intro hzero
     apply h.not_sq_dvd_body
@@ -223,7 +223,7 @@ q ^ 2 ∣ g * GN5 g y
 ### 1. 素数性を typeclass instance にする
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+let : Fact (Nat.Prime q) := ⟨h.prime⟩
 ```
 
 `padicValNat` API が要求する `[Fact (Nat.Prime q)]` を局所的に供給する。
@@ -301,7 +301,7 @@ exact h.not_sq_dvd_body hsq
 数学上は `h.prime : Nat.Prime q` をそのまま使えばよいが、Mathlib の valuation 補題では typeclass として素数性を要求する。
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+let : Fact (Nat.Prime q) := ⟨h.prime⟩
 ```
 
 は proposition の証明を instance search 用に再包装しているだけで、新しい仮定ではない。
@@ -356,7 +356,7 @@ letI : Fact (Nat.Prime q) := ⟨h.prime⟩
 0413 と同様、
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+let : Fact (Nat.Prime q) := ⟨h.prime⟩
 ```
 
 で instance を登録した後に、
@@ -507,7 +507,7 @@ theorem padicValNat_clean_body_eq_one
     {g y q : ℕ}
     (h : CleanGN5Channel g y q) :
     padicValNat q (g * GN5 g y) = 1 := by
-  letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+  let : Fact (Nat.Prime q) := ⟨h.prime⟩
   have hBodyNe : g * GN5 g y ≠ 0 := by
     intro hzero
     apply h.not_sq_dvd_body

@@ -9,7 +9,7 @@ theorem padicValNat_carrier_shape_of_mul_eq_fifth
     (hEq : carrier * residual = distinguished ^ 5)
     (hrVal : padicValNat 5 residual = 1) :
     ∃ m : ℕ, padicValNat 5 carrier = 4 + 5 * m := by
-  letI : Fact (Nat.Prime 5) := ⟨by decide⟩
+  let : Fact (Nat.Prime 5) := ⟨by decide⟩
   have hpow :
       padicValNat 5 (distinguished ^ 5) =
         5 * padicValNat 5 distinguished := by simp
@@ -168,7 +168,7 @@ At the theorem-museum dependency level, `hEq` and `hrVal` are the immediate math
 The multiplication theorem for `padicValNat` expects primality of the base through typeclass machinery, so the proof installs
 
 ```lean
-letI : Fact (Nat.Prime 5) := ⟨by decide⟩
+let : Fact (Nat.Prime 5) := ⟨by decide⟩
 ```
 
 locally. Mathematically this is only the statement that 5 is prime, but the instance is required by the API.

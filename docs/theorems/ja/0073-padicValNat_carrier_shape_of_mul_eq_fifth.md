@@ -9,7 +9,7 @@ theorem padicValNat_carrier_shape_of_mul_eq_fifth
     (hEq : carrier * residual = distinguished ^ 5)
     (hrVal : padicValNat 5 residual = 1) :
     ∃ m : ℕ, padicValNat 5 carrier = 4 + 5 * m := by
-  letI : Fact (Nat.Prime 5) := ⟨by decide⟩
+  let : Fact (Nat.Prime 5) := ⟨by decide⟩
   have hpow :
       padicValNat 5 (distinguished ^ 5) =
         5 * padicValNat 5 distinguished := by simp
@@ -182,7 +182,7 @@ Lean ソース上で直接使われている主要要素は次の通り。
 `padicValNat` の積法則は底が素数であることを typeclass 経由で要求するため、
 
 ```lean
-letI : Fact (Nat.Prime 5) := ⟨by decide⟩
+let : Fact (Nat.Prime 5) := ⟨by decide⟩
 ```
 
 を導入している。数学上は「5 は素数」の一言だが、Lean では API の前提として instance を供給する必要がある。

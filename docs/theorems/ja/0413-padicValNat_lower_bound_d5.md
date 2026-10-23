@@ -13,7 +13,7 @@ theorem padicValNat_lower_bound_d5
     (hq : Nat.Prime q)
     (hqx : q ∣ x) :
     5 ≤ padicValNat q (x ^ 5) := by
-  letI : Fact (Nat.Prime q) := ⟨hq⟩
+  let : Fact (Nat.Prime q) := ⟨hq⟩
   have hvalX : 1 ≤ padicValNat q x := by
     exact (@padicValNat_dvd_iff_le q (Fact.mk hq) x 1 hx.ne').mp (by simpa using hqx)
   have hpow : padicValNat q (x ^ 5) = 5 * padicValNat q x := by simp
@@ -120,7 +120,7 @@ hq : Nat.Prime q
 `padicValNat` の主要補題は型クラス経由で素数性を要求するため、証明冒頭で
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨hq⟩
+let : Fact (Nat.Prime q) := ⟨hq⟩
 ```
 
 として proposition の証明を instance に変換する。
@@ -180,7 +180,7 @@ $$
 ### 1. 素数性を instance 化する
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨hq⟩
+let : Fact (Nat.Prime q) := ⟨hq⟩
 ```
 
 Mathlib の `padicValNat` API が要求する `[Fact (Nat.Prime q)]` を局所的に供給する。
@@ -242,7 +242,7 @@ omega
 そのため
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨hq⟩
+let : Fact (Nat.Prime q) := ⟨hq⟩
 ```
 
 が必要になる。
@@ -314,7 +314,7 @@ padicValNat q (x ^ 5) = 5 * padicValNat q x
 冒頭で
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨hq⟩
+let : Fact (Nat.Prime q) := ⟨hq⟩
 ```
 
 を登録している一方、`padicValNat_dvd_iff_le` の明示適用では

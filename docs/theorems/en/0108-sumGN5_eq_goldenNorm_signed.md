@@ -11,11 +11,11 @@ theorem sumGN5_eq_goldenNorm_signed (u v : ℕ) :
       (SumGN5 u v : ℤ) := by
   unfold GoldenNorm SumGN5
   by_cases h : v ≤ u
-  · rw [if_pos h]
+  · rw [ite_eq_left h]
     push_cast
     rw [Nat.cast_sub h]
     ring
-  · rw [if_neg h]
+  · rw [ite_eq_right h]
     have huv : u ≤ v := Nat.le_of_not_ge h
     push_cast
     rw [Nat.cast_sub huv]
@@ -102,7 +102,7 @@ which mirrors the branch structure in the definition of `SumGN5`.
 
 ### Branch $v\le u$
 
-`if_pos h` selects the first `SumGN5` branch. `push_cast` pushes natural-number casts through the polynomial expression, and
+`ite_eq_left h` selects the first `SumGN5` branch. `push_cast` pushes natural-number casts through the polynomial expression, and
 
 ```lean
 rw [Nat.cast_sub h]
@@ -118,7 +118,7 @@ The remaining identity is a polynomial identity over the integers and is closed 
 
 ### Branch $v\nleq u$
 
-`if_neg h` selects the second branch. Totality of the natural-number order gives
+`ite_eq_right h` selects the second branch. Totality of the natural-number order gives
 
 ```lean
 have huv : u ≤ v := Nat.le_of_not_ge h

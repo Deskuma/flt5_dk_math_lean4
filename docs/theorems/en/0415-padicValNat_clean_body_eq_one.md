@@ -11,7 +11,7 @@ theorem padicValNat_clean_body_eq_one
     {g y q : ℕ}
     (h : CleanGN5Channel g y q) :
     padicValNat q (g * GN5 g y) = 1 := by
-  letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+  let : Fact (Nat.Prime q) := ⟨h.prime⟩
   have hBodyNe : g * GN5 g y ≠ 0 := by
     intro hzero
     apply h.not_sq_dvd_body
@@ -194,7 +194,7 @@ in the natural-number order.
 ### 1. Install primality as a typeclass instance
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+let : Fact (Nat.Prime q) := ⟨h.prime⟩
 ```
 
 This supplies the primality hypothesis required by the relevant `padicValNat` API through local typeclass inference.
@@ -279,7 +279,7 @@ and antisymmetry finishes the equality.
 ### 1. Repackaging a proposition as a `Fact` instance
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+let : Fact (Nat.Prime q) := ⟨h.prime⟩
 ```
 
 introduces no new mathematical assumption. It merely exposes the already available proof `h.prime` to typeclass search.
@@ -350,7 +350,7 @@ A helper theorem such as `CleanGN5Channel.body_ne` in `CleanChannel.lean` would 
 After installing
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨h.prime⟩
+let : Fact (Nat.Prime q) := ⟨h.prime⟩
 ```
 
 the proof still passes

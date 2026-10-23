@@ -13,7 +13,7 @@ theorem padicValNat_lower_bound_d5
     (hq : Nat.Prime q)
     (hqx : q ∣ x) :
     5 ≤ padicValNat q (x ^ 5) := by
-  letI : Fact (Nat.Prime q) := ⟨hq⟩
+  let : Fact (Nat.Prime q) := ⟨hq⟩
   have hvalX : 1 ≤ padicValNat q x := by
     exact (@padicValNat_dvd_iff_le q (Fact.mk hq) x 1 hx.ne').mp (by simpa using hqx)
   have hpow : padicValNat q (x ^ 5) = 5 * padicValNat q x := by simp
@@ -108,7 +108,7 @@ provides primality of `q`.
 The main `padicValNat` API is used through a typeclass assumption, so the proof begins with
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨hq⟩
+let : Fact (Nat.Prime q) := ⟨hq⟩
 ```
 
 which repackages the proposition proof as a local instance.
@@ -166,7 +166,7 @@ is closed from `hvalX : 1 ≤ padicValNat q x` by `omega`.
 ### 1. Install primality as an instance
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨hq⟩
+let : Fact (Nat.Prime q) := ⟨hq⟩
 ```
 
 This supplies the `[Fact (Nat.Prime q)]` expected by the relevant Mathlib valuation API.
@@ -230,7 +230,7 @@ as a typeclass argument.
 Thus
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨hq⟩
+let : Fact (Nat.Prime q) := ⟨hq⟩
 ```
 
 is required. It adds no mathematical assumption; it only exposes the existing proof `hq` to instance search.
@@ -302,7 +302,7 @@ It is not discovering any new valuation fact; it merely multiplies the already e
 The proof first registers
 
 ```lean
-letI : Fact (Nat.Prime q) := ⟨hq⟩
+let : Fact (Nat.Prime q) := ⟨hq⟩
 ```
 
 but then explicitly passes

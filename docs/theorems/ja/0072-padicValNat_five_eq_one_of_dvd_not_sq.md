@@ -6,7 +6,7 @@
 theorem padicValNat_five_eq_one_of_dvd_not_sq
     {n : ℕ} (h5 : 5 ∣ n) (h25 : ¬ 25 ∣ n) :
     padicValNat 5 n = 1 := by
-  letI : Fact (Nat.Prime 5) := ⟨by decide⟩
+  let : Fact (Nat.Prime 5) := ⟨by decide⟩
   have hnz : n ≠ 0 := by
     intro hn0
     apply h25
@@ -82,7 +82,7 @@ $$
 
 ## 証明の流れ
 
-1. `letI : Fact (Nat.Prime 5)` により、5 が素数であるという typeclass instance を局所的に供給する。
+1. `let : Fact (Nat.Prime 5)` により、5 が素数であるという typeclass instance を局所的に供給する。
 2. `h25 : ¬ 25 ∣ n` から $n\neq0$ を示す。もし $n=0$ なら $25\mid0$ なので矛盾する。
 3. `h5 : 5 ∣ n` と `padicValNat_dvd_iff_le` を使って
    $$
@@ -105,7 +105,7 @@ $$
 `padicValNat_dvd_iff_le` は素数性を typeclass 経由で要求するため、
 
 ```lean
-letI : Fact (Nat.Prime 5) := ⟨by decide⟩
+let : Fact (Nat.Prime 5) := ⟨by decide⟩
 ```
 
 で局所 instance を作っている。数学では「5 は素数」と一言で済む部分だが、Lean では API の前提として明示的に解決する必要がある。
@@ -133,7 +133,7 @@ valuation API は $n=0$ を別扱いするため、`hnz : n ≠ 0` が必要に�
 最も目立つのは素数 instance の二重指定である。冒頭に
 
 ```lean
-letI : Fact (Nat.Prime 5) := ⟨by decide⟩
+let : Fact (Nat.Prime 5) := ⟨by decide⟩
 ```
 
 を置いているにもかかわらず、二回の `padicValNat_dvd_iff_le` 呼び出しで `Fact.mk (by decide)` を直接渡している。

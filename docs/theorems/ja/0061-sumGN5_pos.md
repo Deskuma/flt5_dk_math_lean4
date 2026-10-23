@@ -7,10 +7,10 @@ theorem sumGN5_pos
     {u v : ℕ} (hu : 0 < u) (hv : 0 < v) :
     0 < SumGN5 u v := by
   by_cases h : v ≤ u
-  · rw [SumGN5, if_pos h]
+  · rw [SumGN5, ite_eq_left h]
     have hv4 : 0 < v ^ 4 := pow_pos hv 4
     omega
-  · rw [SumGN5, if_neg h]
+  · rw [SumGN5, ite_eq_right h]
     have hu4 : 0 < u ^ 4 := pow_pos hu 4
     omega
 ```
@@ -52,7 +52,7 @@ $$
 Lean / Mathlib 側では次を使う。
 
 - `by_cases h : v ≤ u`
-- `rw [SumGN5, if_pos h]` / `rw [SumGN5, if_neg h]`
+- `rw [SumGN5, ite_eq_left h]` / `rw [SumGN5, ite_eq_right h]`
 - `pow_pos`
 - `omega`
 

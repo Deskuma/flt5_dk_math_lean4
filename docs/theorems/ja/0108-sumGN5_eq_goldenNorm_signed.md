@@ -11,11 +11,11 @@ theorem sumGN5_eq_goldenNorm_signed (u v : ℕ) :
       (SumGN5 u v : ℤ) := by
   unfold GoldenNorm SumGN5
   by_cases h : v ≤ u
-  · rw [if_pos h]
+  · rw [ite_eq_left h]
     push_cast
     rw [Nat.cast_sub h]
     ring
-  · rw [if_neg h]
+  · rw [ite_eq_right h]
     have huv : u ≤ v := Nat.le_of_not_ge h
     push_cast
     rw [Nat.cast_sub huv]
@@ -102,7 +102,7 @@ by_cases h : v ≤ u
 
 ### $v\le u$ の枝
 
-`if_pos h` で `SumGN5` の第一枝を選び、`push_cast` で自然数式の cast を整数式へ押し込む。その後
+`ite_eq_left h` で `SumGN5` の第一枝を選び、`push_cast` で自然数式の cast を整数式へ押し込む。その後
 
 ```lean
 rw [Nat.cast_sub h]
@@ -118,7 +118,7 @@ $$
 
 ### $v\nleq u$ の枝
 
-`if_neg h` で第二枝を選ぶ。自然数は全順序なので
+`ite_eq_right h` で第二枝を選ぶ。自然数は全順序なので
 
 ```lean
 have huv : u ≤ v := Nat.le_of_not_ge h
