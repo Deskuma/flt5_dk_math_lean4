@@ -40,4 +40,4 @@ jobs:
       - name: Build and deploy Lean API documentation
         uses: leanprover-community/docgen-action@v1
         with:
-          build-page: false
+          homepage: generated_site
